@@ -7,34 +7,75 @@ const Card = ({ unit }) => {
     <div className="unit-card">
       <h3 className="unit-name">{unit.name}</h3>
 
-      <p>Caractéristiques :</p>
-      <ul>
-        {Object.entries(unit.carac).map(([key, value]) => (
-          <li key={key}>{`${key}: ${value}`}</li>
-        ))}
-      </ul>
+      <table>
+        <caption>Caractéristiques</caption>
+        <thead>
+          <tr>
+            {Object.entries(unit.carac).map(([key]) => (
+              <th key={key}>{key}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {Object.entries(unit.carac).map(([key, value]) => (
+              <td key={value}>{value}</td>
+            ))}
+          </tr>
+        </tbody>
+      </table>
 
-      <p>Tirs :</p>
-      <ul>
-        {unit.tir.map((arme, index) => (
-          <li key={index}>
-            <p>{arme.name}</p>
-            <p>{`Portée: ${arme.Portée}, A: ${arme.A}, CT: ${arme.CT}, F: ${arme.F}, PA: ${arme.PA}, D: ${arme.D}`}</p>
-            <p>Spécialités: {arme.spé.join(', ')}</p>
-          </li>
-        ))}
-      </ul>
+      {unit.tir.length > 0 ? (
+        <div className='table-container'>
+        <table>
+          <caption>Tir</caption>
+          <thead>
+            <tr>
+              {Object.keys(unit.tir[0]).map((key) => (
+                <th key={key}>{key}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {unit.tir.map((arme, index) => (
+              <tr key={index}>
+                {Object.values(arme).map((value, subIndex) => (
+                  <td key={subIndex}>{value}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+          </table>
+          </div>
+      ) : (
+        <p>Aucune arme de tir.</p>
+      )}
 
-      <p>Mêlée :</p>
-      <ul>
-        {unit.melee.map((arme, index) => (
-          <li key={index}>
-            <p>{arme.name}</p>
-            <p>{`Portée: ${arme.Portée}, A: ${arme.A}, CC: ${arme.CC}, F: ${arme.F}, PA: ${arme.PA}, D: ${arme.D}`}</p>
-            <p>Spécialités: {arme.spé.join(', ')}</p>
-          </li>
-        ))}
-      </ul>
+      {unit.melee.length > 0 ? (
+        <div className='table-container'>
+          <table>
+            <caption>CC</caption>
+            <thead>
+              <tr>
+                {Object.keys(unit.melee[0]).map((key) => (
+                  <th key={key}>{key}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {unit.melee.map((arme, index) => (
+                <tr key={index}>
+                  {Object.values(arme).map((value, subIndex) => (
+                    <td key={subIndex}>{value}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+            </table>
+          </div>
+      ) : (
+        <p>Aucune arme de tir.</p>
+      )}
 
       <p>Aptitudes :</p>
       <ul>

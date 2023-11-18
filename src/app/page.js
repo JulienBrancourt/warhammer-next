@@ -11,8 +11,8 @@ const Home = () => {
       <section className="unites">
         <h2>Datasheets</h2>
         <ul className="unit-list">
-          {dataUnits.map((unit, index) => (
-          <li key={index}>
+          {dataUnits.map((unit, id) => (
+          <li key={id}>
               <Card unit={unit} />
           </li>
         ))}

@@ -6,16 +6,12 @@
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
-  min-height: 100vh;
-  background-image: url(/assets/Marble-texture-background.jpg);
-  font-family: Dosis;
+  margin: 10px;
 }
 
 .unit-list {
   list-style-type: none;
-  /* max-width: 1100px;  */
   padding: 0 14px;
   margin: 0 auto;
   display: grid;
