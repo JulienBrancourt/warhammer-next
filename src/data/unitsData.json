@@ -1,0 +1,98 @@
+
+[
+    {
+        "id": 1,
+        "name": "Guerriers Nécrons (10)",
+        "carac": {
+            "M": "5",
+            "E": "4",
+            "Svg": "4+",
+            "PV": "1",
+            "CD": "7+",
+            "CO": "2"
+        },
+        "tir": 
+            [{
+                "name":"Ecorcheur Gauss",
+                "Portée": "24",
+                "A": "1",
+                "CT": "4+",
+                "F": "4",
+                "PA": "0",
+                "D": "1",
+                "spé": ["Touches fatales", "Tir rapide 1"]
+            },
+            {
+                "name":"Faucheuse Gauss",
+                "Portée": "12",
+                "A": "2",
+                "CT": "4+",
+                "F": "5",
+                "PA": "-1",
+                "D": "1",
+                "spé": ["Touches fatales"]
+            }],
+        "melee": 
+            [{
+                "name":"Arme de corps à corps",
+                "Portée": "Mêlée",
+                "A": "1",
+                "CC": "4+",
+                "F": "4",
+                "PA": "0",
+                "D": "1",
+                "spé": []
+            }],
+        "aptitudes": 
+            {
+                "Protocoles de réanimation": "",
+                "Leur nombre est légion": "Chaque fois que les Protocoles de Réanimation de cette unité s’activent, elle réanime D6 points de vie au lieu de D3 points de vie, à moins qu’elle soit à portée d’un pion d’objectif que vous contrôlez, auquel cas elle réanime D3+3 points de vie à la place." 
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Ligne", "Nécrons"],
+        "cout": "110"
+    },
+    {"id": 2,
+        "name": "Factionnaires (5)",
+        "carac": {
+            "M": "5",
+            "E": "5",
+            "Svg": "3+",
+            "PV": "2",
+            "CD": "7+",
+            "CO": "1"
+        },
+        "tir": 
+            [],
+        "melee": 
+            [{
+                "name":"Épée d’hyperphase",
+                "Portée": "Mêlée",
+                "A": "3",
+                "CC": "3+",
+                "F": "6",
+                "PA": "-2",
+                "D": "1",
+                "spé": []
+            },
+            {
+                "name":"Fauchard",
+                "Portée": "Mêlée",
+                "A": "2",
+                "CC": "3+",
+                "F": "8",
+                "PA": "-3",
+                "D": "2",
+                "spé": ["Blessures dévastatrices"]
+            }],
+        "aptitudes": 
+            {
+                "Protocoles de réanimation": "",
+                "Protocoles d'escortes": "Tant qu'une figurine Noble mène cette unité, à chaque attaque qui cible cette unité, soustrayez 1 au jet de blessure.",
+                "Bouclier à dispersion": "Sauvegarde invulnérable 4+" 
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Factionnaires", "Nécrons"],
+        "cout": "115"
+    }
+]
