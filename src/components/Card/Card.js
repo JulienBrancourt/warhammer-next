@@ -76,18 +76,23 @@ const Card = ({ unit }) => {
       ) : (
         <p>Aucune arme de tir.</p>
       )}
+      <div className='zone-text'>
+        <p className='aptitudes'>Aptitudes</p>
+        <ul>
+          {Object.entries(unit.aptitudes).map(([key, value]) => (
+            value.length > 1 ? (
+              <li key={key}>-{`${key}: ${value}`}</li>
+            ) : (
+              <li key={key}>-{key}</li>
+            )
+          ))}
+        </ul>
 
-      <p>Aptitudes :</p>
-      <ul>
-        {Object.entries(unit.aptitudes).map(([key, value]) => (
-          <li key={key}>{`${key}: ${value}`}</li>
-        ))}
-      </ul>
-
-      <p>Mots-clés Faction: {unit.motclesfaction.join(', ')}</p>
-      <p>Mots-clés: {unit.motscles.join(', ')}</p>
-      <p>Coût: {unit.cout}</p>
-    </div>
+        <p>Mots-clés Faction: {unit.motclesfaction.join(', ')}</p>
+        <p>Mots-clés: {unit.motscles.join(', ')}</p>
+        <p>Coût: {unit.cout}</p>
+        </div>
+      </div>
   )
 }
 

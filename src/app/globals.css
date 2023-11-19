@@ -7,7 +7,12 @@
 html,
 body {
   overflow-x: hidden;
-  margin: 10px;
+  margin: 10px auto;
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
 }
 
 .unit-list {
@@ -15,15 +20,9 @@ body {
   padding: 0 14px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 500px);
+  grid-template-columns: repeat(auto-fill, 350px);
   justify-content: center;
   gap: 25px;
 }
 
 
-.projet-card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 4rem;
-}
