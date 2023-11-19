@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import unitsData from "../data/unitsData.json";
 import Card from "@/components/Card/Card";
+import Navbar from "@/components/Navbar/Navbar";
 
 const Home = () => {
   const [dataUnits, setDataUnits] = useState(unitsData);
@@ -12,8 +13,9 @@ const Home = () => {
   
   return (
     <main>
+      <Navbar />
       <section className="unites">
-        <h2>Datasheets</h2>
+        <h1>Unités</h1>
         <div className="search">
           <input
             type="text"
