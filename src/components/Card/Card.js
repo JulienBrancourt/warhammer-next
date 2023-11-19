@@ -81,7 +81,7 @@ const Card = ({ unit }) => {
 
         {unit.options.length > 0 ? (
           <div>
-            <p>Options</p>
+            <p className='options'>Options</p>
             <ul>
               {unit.options.map((key) => (
                 <li key={key}>{key}</li>
@@ -102,9 +102,9 @@ const Card = ({ unit }) => {
           ))}
         </ul>
 
-        <p>Mots-clés Faction: {unit.motclesfaction.join(', ')}</p>
+        <p className='part'>Mots-clés Faction: {unit.motclesfaction.join(', ')}</p>
         <p>Mots-clés: {unit.motscles.join(', ')}</p>
-        <p>Coût: {unit.cout} pts</p>
+        <p className='part'>Coût: {unit.cout} pts</p>
         </div>
       </div>
   )

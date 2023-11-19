@@ -18,21 +18,20 @@ h3 {
 
 .table-container {
     max-width: 450px;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     margin: 7px auto;
 }
-
 
 thead tr {
     background-color: rgb(86, 86, 223);
     color: #fff;
-    text-align: left;
     font-size: 11px;
 }
 
 th, td {
     padding: 5px 5px;
     font-size: 11px;
+    text-align: center;
 }
 
 tbody tr, td, th {
@@ -46,8 +45,12 @@ ul {
 .zone-text {
     padding: 5px;
 }
-.aptitudes {
+.aptitudes, .options {
     text-align: center;
+    margin-top: 7px;
+}
+
+.part {
     margin-top: 7px;
 }
 
