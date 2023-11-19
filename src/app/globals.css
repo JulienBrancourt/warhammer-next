@@ -10,6 +10,9 @@ body {
   margin: 10px auto;
 }
 
+h1 {
+  font-size: 32px;
+}
 h2{
   text-align: center;
   padding: 10px;
