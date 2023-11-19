@@ -43,6 +43,7 @@
                 "D": "1",
                 "spé": []
             }],
+        "options":[],
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
@@ -85,6 +86,9 @@
                 "D": "2",
                 "spé": ["Blessures dévastatrices"]
             }],
+        "options":
+            ["Toutes les figurines de cette unité peuvent chacune remplacer leur fauchard remplacé par 1 épée d’hyperphase et 1 bouclier à dispersion."],
+                           
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
@@ -94,5 +98,263 @@
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Factionnaires", "Nécrons"],
         "cout": "115"
+    },
+    {
+        "id": 3,
+        "name": "Dynaste",
+        "carac": {
+            "M": "5",
+            "E": "5",
+            "Svg": "3+",
+            "PV": "4",
+            "CD": "6+",
+            "CO": "1"
+        },
+        "tir": 
+            [{
+                "name":"Bâton de lumière",
+                "Portée": "18",
+                "A": "3",
+                "CT": "3+",
+                "F": "5",
+                "PA": "-2",
+                "D": "1",
+                "spé": []
+            }],
+        "melee": 
+            [{
+                "name":"Bâton de lumière",
+                "Portée": "Mêlée",
+                "A": "3",
+                "CC": "3+",
+                "F": "5",
+                "PA": "-2",
+                "D": "1",
+                "spé": []
+            },
+            {
+                "name":"Lame de dynaste",
+                "Portée": "Mêlée",
+                "A": "3",
+                "CC": "3+",
+                "F": "8",
+                "PA": "-3",
+                "D": "2",
+                "spé": ["Blessures dévastatrices"]
+            }],
+        "options":
+            ["Orbe de résurrection","Peut remplacer le bâton de lumière par une lame de dynaste"],
+        "aptitudes": 
+            {
+                "Meneur": "Peut être attachée aux unités suivantes : Immortels, Factionnaires, Guerriers Necrons",
+                "Protocoles de réanimation": "",
+                "Progressin implacable": "+1 au Mouvement de l'unité menée",
+                "Volonté du dynaste": "L'unité menée peut être ciblée par des Stratagèmes même si elle est Ebranlée" 
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Personnage", "Noble", "Dynaste"],
+        "cout": "65"
+    },
+    {
+        "id": 4,
+        "name": "Plasmancien",
+        "carac": {
+            "M": "5",
+            "E": "4",
+            "Svg": "4+",
+            "PV": "4",
+            "CD": "6+",
+            "CO": "1"
+        },
+        "tir": 
+            [{
+                "name":"Lance plasmique",
+                "Portée": "18",
+                "A": "3",
+                "CT": "4+",
+                "F": "7",
+                "PA": "-3",
+                "D": "2",
+                "spé": []
+            }],
+        "melee": 
+            [{
+                "name":"Lance plasmique",
+                "Portée": "Mêlée",
+                "A": "2",
+                "CC": "4+",
+                "F": "7",
+                "PA": "-3",
+                "D": "2",
+                "spé": []
+            }],
+        "options":
+            ["Orbe de résurrection","Peut remplacer le bâton de lumière par une lame de dynaste"],
+        "aptitudes": 
+            {
+                "Meneur": "Peut être attachée aux unités suivantes : Immortels, Factionnaires, Guerriers Necrons",
+                "Protocoles de réanimation": "",
+                "Emissaire de la destruction": "l'unité menée cause des Touches Critiques au tir sur du 5+",
+                "Foudre consciente": "A votre phase de Tir, choisissez une unité ennemie à 18 pouces et visible de cette figurine : jetez 1D6 pour chaque figurine ennemie, pour chaque 6 l'unité subit 1 BM" 
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Personnage", "Cryptek", "Plasmancien"],
+        "cout": "55"
+    },
+    {
+        "id": 5,
+        "name": "Seigneur Skorpekh",
+        "carac": {
+            "M": "7",
+            "E": "7",
+            "Svg": "3+",
+            "PV": "6",
+            "CD": "6+",
+            "CO": "2"
+        },
+        "tir": 
+            [{
+                "name":"Annihilateur d'hostiles",
+                "Portée": "18",
+                "A": "2",
+                "CT": "2+",
+                "F": "6",
+                "PA": "-1",
+                "D": "1",
+                "spé": ["Tir rapide 2"]
+            }],
+        "melee": 
+            [{
+                "name":"Griffe de dépeçage",
+                "Portée": "Mêlée",
+                "A": "8",
+                "CC": "2+",
+                "F": "6",
+                "PA": "-1",
+                "D": "1",
+                "spé": []
+            },
+            {   
+                "name":"Moissonneur d'hyperphase",
+                "Portée": "Mêlée",
+                "A": "4",
+                "CC": "2+",
+                "F": "10",
+                "PA": "-3",
+                "D": "3",
+                "spé": []
+            }],
+        "options":
+            [],
+        "aptitudes": 
+            {
+                "Meneur": "Peut être attachée à l'unité suivante : Destroyers Skorpekh",
+                "Protocoles de réanimation": "",
+                "Unis dans la destruction": "les armes de mêlée de l'unité menée ont Touches Fatales",
+                "Moisson écarlate": "A chaque fois que cette figurine fait un mouvement de charge, choisissez une unité ennemie à Portée d'Engagement et jetez 1D6 : sur 2-5 l'ennemie subit D3 BM, sur 6 elle subit D3+3 BM",
+                "Sauvegarde Invulnérable": "4+" 
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Personnage", "Seigneur Skorpekh"],
+        "cout": "100"
+    },
+    {
+        "id": 6,
+        "name": "Guerriers Nécrons (20)",
+        "carac": {
+            "M": "5",
+            "E": "4",
+            "Svg": "4+",
+            "PV": "1",
+            "CD": "7+",
+            "CO": "2"
+        },
+        "tir": 
+            [{
+                "name":"Ecorcheur Gauss",
+                "Portée": "24",
+                "A": "1",
+                "CT": "4+",
+                "F": "4",
+                "PA": "0",
+                "D": "1",
+                "spé": ["Touches fatales ", "/ Tir rapide 1"]
+            },
+            {
+                "name":"Faucheuse Gauss",
+                "Portée": "12",
+                "A": "2",
+                "CT": "4+",
+                "F": "5",
+                "PA": "-1",
+                "D": "1",
+                "spé": ["Touches fatales"]
+            }],
+        "melee": 
+            [{
+                "name":"Arme de corps à corps",
+                "Portée": "Mêlée",
+                "A": "1",
+                "CC": "4+",
+                "F": "4",
+                "PA": "0",
+                "D": "1",
+                "spé": []
+            }],
+        "options":[],
+        "aptitudes": 
+            {
+                "Protocoles de réanimation": "",
+                "Leur nombre est légion": "Chaque fois que les Protocoles de Réanimation de cette unité s’activent, elle réanime D6 points de vie au lieu de D3 points de vie, à moins qu’elle soit à portée d’un pion d’objectif que vous contrôlez, auquel cas elle réanime D3+3 points de vie à la place." 
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Ligne", "Nécrons"],
+        "cout": "220"
+    },
+    {
+        "id": 7,
+        "name": "Cryptoserfs",
+        "carac": {
+            "M": "5",
+            "E": "4",
+            "Svg": "3+",
+            "PV": "2",
+            "CD": "8+",
+            "CO": "1"
+        },
+        "tir": 
+            [{
+                "name":"Oeil destructeur",
+                "Portée": "6",
+                "A": "2",
+                "CT": "4+",
+                "F": "5",
+                "PA": "-1",
+                "D": "1",
+                "spé": ["Touches fatales ", "/ Tir rapide 1"]
+            }],
+        "melee": 
+            [{
+                "name":"Faux corporelles",
+                "Portée": "Mêlée",
+                "A": "4",
+                "CC": "4+",
+                "F": "5",
+                "PA": "-1",
+                "D": "1",
+                "spé": []
+            }],
+        "options":[],
+        "aptitudes": 
+            {
+                "Protocoles de réanimation": "",
+                "Insensible à la douleur": "4+",
+                "Créature subalterne": "Tant que cette unité est dans la même unité qu'une figurine Cryptek, cette figurine Cryptek a l'aptitude Insensible à la douleur 4+",
+                "Vigueur systémique": "Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si la figurine n’a pas combattu à cette phase, jetez 1D6 : sur 3+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a résolu ses attaques, puis elle est retirée du jeu",
+                "Suite Cryptek": "Au début de l’étape Déclarer les Formations de Bataille, cette unité peut rejoindre 1 autre unité de votre armée qui est menée par une figurine Infanterie Cryptek (une unité ne peut pas avoir plus de 1 unité Cryptoserfs l’ayant rejointe). En ce cas, jusqu’à la fin de la bataille, toutes les figurines de cette unité comptent comme faisant partie de l’unité de Gardes du Corps, et l’Effectif Initial de l’unité de Gardes du Corps est augmenté en conséquence" 
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Cryptoserfs"],
+        "cout": "60"
     }
 ]

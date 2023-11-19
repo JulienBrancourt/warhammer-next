@@ -12,7 +12,7 @@ const Home = () => {
         <h2>Datasheets</h2>
         <ul className="unit-list">
           {dataUnits.map((unit, id) => (
-          <li key={id} className="unit-card">
+          <li key={id} className="unit-cartes">
               <Card unit={unit} />
           </li>
         ))}

@@ -20,9 +20,17 @@ h2{
   padding: 0 14px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 350px);
+  grid-template-columns: repeat(auto-fill, 450px);
   justify-content: center;
   gap: 25px;
+}
+
+@media screen and (max-width: 550px) {
+  .unit-list {
+  grid-template-columns: repeat(auto-fill, 350px);
+
+}
+
 }
 
 
