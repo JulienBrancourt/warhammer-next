@@ -3,6 +3,8 @@ import React from 'react';
 import './Card.css'
 
 const Card = ({ unit }) => {
+  const ordreCaracteristiques = ["M", "E", "Svg", "PV", "CD", "CO"]
+
   return (
     <div className="unit-card">
       <h3 className="unit-name">{unit.name}</h3>
@@ -11,15 +13,15 @@ const Card = ({ unit }) => {
         <caption>Caractéristiques</caption>
         <thead>
           <tr>
-            {Object.entries(unit.carac).map(([key]) => (
+            {ordreCaracteristiques.map((key) => (
               <th key={key}>{key}</th>
             ))}
           </tr>
         </thead>
         <tbody>
           <tr>
-            {Object.entries(unit.carac).map(([key, value]) => (
-              <td key={value}>{value}</td>
+            {ordreCaracteristiques.map((key) => (
+              <td key={key}>{unit.carac[key]}</td>
             ))}
           </tr>
         </tbody>
