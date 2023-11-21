@@ -18,6 +18,7 @@
         "Précision": "Quand il cible une unité attachée, le joueur peut allouer l'attaque à une figurine Personnage qui est dans l'unité et visible du porteur",
         "Tir Rapide 1": "On augmente les attaques de x quand on cible des unités à mi-portée",
         "Touches Fatales": "Une touche critique (6 naturel) blesse auto",
-        "Touches Soutenues D3": "Chaque touche critique cause x touches supplémentaires à la cible"
+        "Touches Soutenues D3": "Chaque touche critique cause x touches supplémentaires à la cible",
+        "Vol": "La figurine peut se déplacer par-dessus les figurines ennemies, n'a pas besoin de faire un test de Fuite Désespérée"
     }
 ]
