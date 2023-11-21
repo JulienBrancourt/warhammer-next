@@ -189,7 +189,7 @@
                 "spé": []
             }],
         "options":
-            ["Orbe de résurrection","Peut remplacer le bâton de lumière par une lame de dynaste"],
+            [],
         "aptitudes": 
             {
                 "Meneur": "Peut être attachée aux unités suivantes : Immortels, Factionnaires, Guerriers Necrons",
@@ -348,8 +348,9 @@
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Assaut tourbillonnant": "À chaque attaque de mêlée d’une figurine de cette unité, vous pouvez ignorer certains ou tous les modificateurs à la caractéristique de Capacité de Combat de cette attaque et/ou au jet de Touche de cette attaque",
-                "Plasmacyte": "Une fois par bataille pour chaque Plasmacyte que possède cette unité, quand cette unité est choisie pour combattre, vous pouvez utiliser cette aptitude. En ce cas, jusqu’à la fin de la phase, les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude Blessures dévastatrices" 
+                "Créature subalterne": "Tant que cette unité est dans la même unité qu'une figurine Cryptek, cette figurine Cryptek a l'aptitude Insensible à la douleur 4+",
+                "Vigueur systémique": "Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si la figurine n’a pas combattu à cette phase, jetez 1D6 : sur 3+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a résolu ses attaques, puis elle est retirée du jeu",
+                "Suite Cryptek": "Au début de l’étape Déclarer les Formations de Bataille, cette unité peut rejoindre 1 autre unité de votre armée qui est menée par une figurine Infanterie Cryptek (une unité ne peut pas avoir plus de 1 unité Cryptoserfs l’ayant rejointe). En ce cas, jusqu’à la fin de la bataille, toutes les figurines de cette unité comptent comme faisant partie de l’unité de Gardes du Corps, et l’Effectif Initial de l’unité de Gardes du Corps est augmenté en conséquence"
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Cryptoserfs"],
@@ -384,9 +385,8 @@
             {
                 "Protocoles de réanimation": "",
                 "Insensible à la douleur": "4+",
-                "Créature subalterne": "Tant que cette unité est dans la même unité qu'une figurine Cryptek, cette figurine Cryptek a l'aptitude Insensible à la douleur 4+",
-                "Vigueur systémique": "Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si la figurine n’a pas combattu à cette phase, jetez 1D6 : sur 3+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a résolu ses attaques, puis elle est retirée du jeu",
-                "Suite Cryptek": "Au début de l’étape Déclarer les Formations de Bataille, cette unité peut rejoindre 1 autre unité de votre armée qui est menée par une figurine Infanterie Cryptek (une unité ne peut pas avoir plus de 1 unité Cryptoserfs l’ayant rejointe). En ce cas, jusqu’à la fin de la bataille, toutes les figurines de cette unité comptent comme faisant partie de l’unité de Gardes du Corps, et l’Effectif Initial de l’unité de Gardes du Corps est augmenté en conséquence" 
+                "Assaut tourbillonnant": "À chaque attaque de mêlée d’une figurine de cette unité, vous pouvez ignorer certains ou tous les modificateurs à la caractéristique de Capacité de Combat de cette attaque et/ou au jet de Touche de cette attaque",
+                "Plasmacyte": "Une fois par bataille pour chaque Plasmacyte que possède cette unité, quand cette unité est choisie pour combattre, vous pouvez utiliser cette aptitude. En ce cas, jusqu’à la fin de la phase, les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude Blessures dévastatrices"                
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Destroyers Skorpekhs"],
