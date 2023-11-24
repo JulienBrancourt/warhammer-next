@@ -344,7 +344,7 @@
                 "D": "1",
                 "spé": []
             }],
-        "options":["1 Plasmacyte par tranche de 3 figurines"],
+        "options":[],
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
@@ -380,7 +380,7 @@
                 "D": "2",
                 "spé": []
             }],
-        "options":[],
+        "options":["1 Plasmacyte par tranche de 3 figurines"],
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
