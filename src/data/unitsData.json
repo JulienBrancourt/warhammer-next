@@ -2,7 +2,7 @@
 [
     {
         "id": 1,
-        "name": "Guerriers Nécrons (10)",
+        "name": "Guerriers Nécrons (10/20)",
         "carac": {
             "M": "5",
             "E": "4",
@@ -27,7 +27,7 @@
                 "Portée": "12",
                 "A": "2",
                 "CT": "4+",
-                "F": "5",
+                "F": "4",
                 "PA": "-1",
                 "D": "1",
                 "spé": ["Touches fatales"]
@@ -47,14 +47,14 @@
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Leur nombre est légion": "Chaque fois que les Protocoles de Réanimation de cette unité s’activent, elle réanime D6 points de vie au lieu de D3 points de vie, à moins qu’elle soit à portée d’un pion d’objectif que vous contrôlez, auquel cas elle réanime D3+3 points de vie à la place." 
+                "Leur nombre est légion": "Chaque fois que les Protocoles de Réanimation de cette unité s’activent, vous pouvez relancer le dé." 
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Ligne", "Nécrons"],
-        "cout": "110"
+        "cout": "100/200"
     },
     {"id": 2,
-        "name": "Factionnaires (5)",
+        "name": "Factionnaires (5/10)",
         "carac": {
             "M": "5",
             "E": "5",
@@ -87,73 +87,70 @@
                 "spé": ["Blessures dévastatrices"]
             }],
         "options":
-            ["Toutes les figurines de cette unité peuvent chacune remplacer leur fauchard remplacé par 1 épée d’hyperphase et 1 bouclier à dispersion."],
+            ["Toutes les figurines de cette unité peuvent chacune remplacer leur fauchard par 1 épée d’hyperphase et 1 bouclier à dispersion."],
                            
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Protocoles d'escortes": "Tant qu'une figurine Noble mène cette unité, à chaque attaque qui cible cette unité, soustrayez 1 au jet de blessure.",
+                "Protocoles d'escortes": "Tant qu'une figurine Noble mène cette unité, à chaque attaque qui cible cette unité, si la caractéristique de Force de l'attaque est supérieure à la caractéristique d'Endurance de cette unité, soustrayez 1 au jet de blessure.",
                 "Bouclier à dispersion": "Sauvegarde invulnérable 4+" 
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Factionnaires", "Nécrons"],
-        "cout": "115"
+        "cout": "85/170"
     },
     {
         "id": 3,
-        "name": "Dynaste",
+        "name": "Immortels (5/10)",
         "carac": {
             "M": "5",
             "E": "5",
             "Svg": "3+",
-            "PV": "4",
-            "CD": "6+",
-            "CO": "1"
+            "PV": "1",
+            "CD": "7+",
+            "CO": "2"
         },
         "tir": 
             [{
-                "Arme":"Bâton de lumière",
-                "Portée": "18",
-                "A": "3",
+                "Arme":"Eclateur Gauss",
+                "Portée": "24",
+                "A": "2",
                 "CT": "3+",
                 "F": "5",
-                "PA": "-2",
+                "PA": "-1",
                 "D": "1",
-                "spé": []
+                "spé": ["Touches fatales"]
+            },
+            {
+                "Arme":"Carabine Tesla",
+                "Portée": "24",
+                "A": "2",
+                "CT": "3+",
+                "F": "5",
+                "PA": "-1",
+                "D": "1",
+                "spé": ["Assaut", "Touches soutenues 2"]
             }],
         "melee": 
             [{
-                "Arme":"Bâton de lumière",
+                "Arme":"Arme de corps à corps",
                 "Portée": "Mêlée",
-                "A": "3",
+                "A": "2",
                 "CC": "3+",
-                "F": "5",
-                "PA": "-2",
+                "F": "4",
+                "PA": "0",
                 "D": "1",
                 "spé": []
-            },
-            {
-                "Arme":"Lame de dynaste",
-                "Portée": "Mêlée",
-                "A": "3",
-                "CC": "3+",
-                "F": "8",
-                "PA": "-3",
-                "D": "2",
-                "spé": ["Blessures dévastatrices"]
             }],
         "options":
-            ["Orbe de résurrection","Peut remplacer le bâton de lumière par une lame de dynaste"],
+            [],
         "aptitudes": 
             {
-                "Meneur": "Peut être attachée aux unités suivantes : Immortels, Factionnaires, Guerriers Necrons",
-                "Protocoles de réanimation": "",
-                "Progressin implacable": "+1 au Mouvement de l'unité menée",
-                "Volonté du dynaste": "L'unité menée peut être ciblée par des Stratagèmes même si elle est Ebranlée" 
+                "Eradication Implacable": "A chaque attaque d'une figurine de cette unité, relancer tout jet de Blessure de 1. Si la cible de l'attaque est à portée d'un objectif, vous pouvez relancer le jet de Blessure à la place." 
             },
         "motclesfaction": ["Nécrons"],
-        "motscles": ["Infanterie", "Personnage", "Noble", "Dynaste"],
-        "cout": "65"
+        "motscles": ["Infanterie", "Ligne", "Immortels"],
+        "cout": "70/140"
     },
     {
         "id": 4,
@@ -192,10 +189,10 @@
             [],
         "aptitudes": 
             {
-                "Meneur": "Peut être attachée aux unités suivantes : Immortels, Factionnaires, Guerriers Necrons",
+                "Meneur": "Peut être attachée aux unités suivantes : Immortels, Guerriers Necrons",
                 "Protocoles de réanimation": "",
                 "Emissaire de la destruction": "l'unité menée cause des Touches Critiques au tir sur du 5+",
-                "Foudre consciente": "A votre phase de Tir, choisissez une unité ennemie à 18 pouces et visible de cette figurine : jetez 1D6 pour chaque figurine ennemie, pour chaque 6 l'unité subit 1 BM" 
+                "Foudre consciente": "A votre phase de Tir, choisissez une unité ennemie à 18 pouces et visible de cette figurine : jetez 4D6, pour chaque 4+ l'unité subit 1 BM" 
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Personnage", "Cryptek", "Plasmancien"],
@@ -205,10 +202,10 @@
         "id": 5,
         "name": "Seigneur Skorpekh",
         "carac": {
-            "M": "7",
+            "M": "8",
             "E": "7",
             "Svg": "3+",
-            "PV": "6",
+            "PV": "7",
             "CD": "6+",
             "CO": "2"
         },
@@ -255,61 +252,72 @@
                 "Sauvegarde Invulnérable": "4+" 
             },
         "motclesfaction": ["Nécrons"],
-        "motscles": ["Infanterie", "Personnage", "Seigneur Skorpekh"],
+        "motscles": ["Infanterie", "Personnage", "Seigneur Skorpekh", "Culte Destroyer"],
         "cout": "100"
     },
     {
         "id": 6,
-        "name": "Guerriers Nécrons (20)",
+        "name": "Prétoriens du Triarcat (5/10)",
         "carac": {
-            "M": "5",
-            "E": "4",
-            "Svg": "4+",
-            "PV": "1",
+            "M": "10",
+            "E": "5",
+            "Svg": "3+",
+            "PV": "2",
             "CD": "7+",
-            "CO": "2"
+            "CO": "1"
         },
         "tir": 
             [{
-                "Arme":"Ecorcheur Gauss",
-                "Portée": "24",
-                "A": "1",
-                "CT": "4+",
-                "F": "4",
+                "Arme":"Projecteur de particules",
+                "Portée": "12",
+                "A": "3",
+                "CT": "3+",
+                "F": "5",
                 "PA": "0",
                 "D": "1",
-                "spé": ["Touches fatales", " / Tir rapide 1"]
+                "spé": ["Blessures dévastatrices", " / Pistolet"]
             },
             {
-                "Arme":"Faucheuse Gauss",
+                "Arme":"Crosse d'alliance",
                 "Portée": "12",
-                "A": "2",
-                "CT": "4+",
+                "A": "1",
+                "CT": "3+",
                 "F": "5",
-                "PA": "-1",
-                "D": "1",
-                "spé": ["Touches fatales"]
+                "PA": "-2",
+                "D": "2",
+                "spé": []
             }],
         "melee": 
             [{
-                "Arme":"Arme de corps à corps",
+                "Arme":"Crosse d'alliance",
                 "Portée": "Mêlée",
-                "A": "1",
-                "CC": "4+",
-                "F": "4",
-                "PA": "0",
+                "A": "3",
+                "CC": "3+",
+                "F": "5",
+                "PA": "-2",
+                "D": "2",
+                "spé": []
+            },
+            {
+                "Arme":"Lame du néant",
+                "Portée": "Mêlée",
+                "A": "4",
+                "CC": "3+",
+                "F": "5",
+                "PA": "-2",
                 "D": "1",
                 "spé": []
             }],
-        "options":[],
+        "options":["Toutels les figurines de cette unité peuvent remplacer leur crosse d'alliance par un projectteurde particules et une lame du néant"],
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Leur nombre est légion": "Chaque fois que les Protocoles de Réanimation de cette unité s’activent, elle réanime D6 points de vie au lieu de D3 points de vie, à moins qu’elle soit à portée d’un pion d’objectif que vous contrôlez, auquel cas elle réanime D3+3 points de vie à la place." 
+                "Frappe en profondeur": "",
+                "Combattants Implacables": "Vous pouvez relancer les jets de charge pour cette unités, et cette unités est éligible pour déclarer une charge à un tour où elle a battu en retraite" 
             },
         "motclesfaction": ["Nécrons"],
-        "motscles": ["Infanterie", "Ligne", "Nécrons"],
-        "cout": "220"
+        "motscles": ["Infanterie", "Vol", "Triarcat", "Prétoriens"],
+        "cout": "120/240"
     },
     {
         "id": 7,
@@ -318,7 +326,7 @@
             "M": "5",
             "E": "4",
             "Svg": "3+",
-            "PV": "2",
+            "PV": "3",
             "CD": "8+",
             "CO": "1"
         },
@@ -331,7 +339,7 @@
                 "F": "5",
                 "PA": "-1",
                 "D": "1",
-                "spé": ["Touches fatales", " / Tir rapide 1"]
+                "spé": []
             }],
         "melee": 
             [{
@@ -349,7 +357,7 @@
             {
                 "Protocoles de réanimation": "",
                 "Créature subalterne": "Tant que cette unité est dans la même unité qu'une figurine Cryptek, cette figurine Cryptek a l'aptitude Insensible à la douleur 4+",
-                "Vigueur systémique": "Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si la figurine n’a pas combattu à cette phase, jetez 1D6 : sur 3+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a résolu ses attaques, puis elle est retirée du jeu",
+                "Vigueur systémique": "Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si la figurine n’a pas combattu à cette phase, jetez 1D6 : sur 2+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a résolu ses attaques, puis elle est retirée du jeu",
                 "Suite Cryptek": "Au début de l’étape Déclarer les Formations de Bataille, cette unité peut rejoindre 1 autre unité de votre armée qui est menée par une figurine Infanterie Cryptek (une unité ne peut pas avoir plus de 1 unité Cryptoserfs l’ayant rejointe). En ce cas, jusqu’à la fin de la bataille, toutes les figurines de cette unité comptent comme faisant partie de l’unité de Gardes du Corps, et l’Effectif Initial de l’unité de Gardes du Corps est augmenté en conséquence"
             },
         "motclesfaction": ["Nécrons"],
@@ -358,9 +366,9 @@
     },
     {
         "id": 8,
-        "name": "Destroyers Skorpekhs (3)",
+        "name": "Destroyers Skorpekhs (3/6)",
         "carac": {
-            "M": "7",
+            "M": "8",
             "E": "6",
             "Svg": "3+",
             "PV": "3",
@@ -384,19 +392,18 @@
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Insensible à la douleur": "4+",
-                "Assaut tourbillonnant": "À chaque attaque de mêlée d’une figurine de cette unité, vous pouvez ignorer certains ou tous les modificateurs à la caractéristique de Capacité de Combat de cette attaque et/ou au jet de Touche de cette attaque",
+                "Assaut tourbillonnant": "À chaque attaque de mêlée d’une figurine de cette unité, relancez tout jet de Touche de 1. Si cette unité a fait un mouvement de Charge à ce tour, vous pouvez relancer le jet de touche à la place",
                 "Plasmacyte": "Une fois par bataille pour chaque Plasmacyte que possède cette unité, quand cette unité est choisie pour combattre, vous pouvez utiliser cette aptitude. En ce cas, jusqu’à la fin de la phase, les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude Blessures dévastatrices"                
             },
         "motclesfaction": ["Nécrons"],
-        "motscles": ["Infanterie", "Destroyers Skorpekhs"],
-        "cout": "100"
+        "motscles": ["Infanterie", "Destroyers Skorpekhs", "Culte Destroyer"],
+        "cout": "100/200"
     },
     {
         "id": 9,
-        "name": "Nuées de scarabées Canopteks (3)",
+        "name": "Nuées de scarabées Canopteks (3/6)",
         "carac": {
-            "M": "9",
+            "M": "10",
             "E": "2",
             "Svg": "6+",
             "PV": "4",
@@ -422,17 +429,17 @@
                 "Protocoles de réanimation": "",
                 "Destruction néfaste": "1",
                 "Autodestruction": "Au début de la phase de Combat, si cette unité est à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez choisir 1 figurine de cette unité et la détruire. En ce cas, ne faites pas de jet pour l’aptitude Destruction Néfaste de votre figurine ; à la place, choisissez 1 unité ennemie à Portée d’Engagement de votre figurine et jetez 1 D6, en ajoutant 1 au résultat si l’unité ennemie est un Véhicule. Sur 2-5, l’unité ennemie subit D3 blessures mortelles ; sur 6+, elle subit D3+3 blessures mortelles",
-                "Nuée": "Tant qu’une unité ennemie est à Portée d’Engagement de cette unité, soustrayez 1 à la caractéristique de Contrôle d’Objectif des figurines de l’unité ennemie (jusqu’à un minimum de 1" 
+                "Nuée stridente": "Tant qu’une unité ennemie est à Portée d’Engagement de cette unité, soustrayez 1 à la caractéristique de Contrôle d’Objectif des figurines de l’unité ennemie (jusqu’à un minimum de 1). Tant que cette unité de scarabées est à 6 pouces ou moinsd'une figurine Cryptek, la caractéristique de CO des scarabées est 1." 
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Nuée", "Vol", "Canoptek", "Nuées de scarabées"],
-        "cout": "40"
+        "cout": "40/80"
     },
     {
         "id": 10,
-        "name": "Destroyers Lokhusts (2)",
+        "name": "Destroyers Lokhusts (1/2/3/6)",
         "carac": {
-            "M": "7",
+            "M": "8",
             "E": "6",
             "Svg": "3+",
             "PV": "3",
@@ -465,21 +472,21 @@
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Programmées pour détruire": "À chaque attaque d’une figurine de cette unité qui cible l’unité ennemie éligible la plus proche, relancez tout jet de Touche de 1" 
+                "Programmées pour détruire": "À chaque attaque d’une figurine de cette unité qui cible l’unité ennemie éligible la plus proche, relancez tout jet de Touche de 1. Si la cible de l'attaque est à portée d'un pion objectif contrôlé par l'adversaire, vous pouvez relancer le jet de Touche à la place." 
             },
         "motclesfaction": ["Nécrons"],
-        "motscles": ["Monté", "Vol", "Destroyers Lokhusts"],
-        "cout": "60"
+        "motscles": ["Monté", "Vol", "Destroyers Lokhusts","Culte Destroyer"],
+        "cout": "30/60/90/180"
     },
     {
         "id": 11,
         "name": "Réanimateur Canoptek",
         "carac": {
-            "M": "7",
+            "M": "8",
             "E": "6",
             "Svg": "3+",
             "PV": "6",
-            "CD": "7+",
+            "CD": "8+",
             "CO": "3"
         },
         "tir": 
@@ -508,7 +515,7 @@
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Faisceau de Réanimation de Nanoscarabées (Aura)": "Tant qu’une unité Nécrons amie est à 12 pouces de cette figurine, chaque fois que les Protocoles de Réanimation de l’unité s’activent, l’unité réanime D3 points de vie additionnels",
+                "Faisceau de Réanimation de Nanoscarabées (Aura)": "Tant qu’une unité Nécrons amie est à 3 pouces de cette figurine, chaque fois que les Protocoles de Réanimation de l’unité s’activent, l’unité réanime D3 points de vie additionnels",
                 "Insensible à la douleur": "4+" 
             },
         "motclesfaction": ["Nécrons"],
@@ -519,7 +526,7 @@
         "id": 12,
         "name": "Rôdeur du Triarcat",
         "carac": {
-            "M": "9",
+            "M": "8",
             "E": "8",
             "Svg": "3+",
             "PV": "12",
@@ -558,14 +565,14 @@
                 "spé": ["Déflagration", " / Blessures dévastatrices"]
             },
             {
-                "Arme":"Canon Gauss lourd jumelé",
+                "Arme":"Batterie de Canon Gauss lourds",
                 "Portée": "24",
-                "A": "3",
+                "A": "6",
                 "CT": "3+",
                 "F": "8",
                 "PA": "-2",
                 "D": "2",
-                "spé": ["Touches fatales", " / Jumelé"]
+                "spé": ["Touches fatales"]
             }],
         "melee": 
             [{
@@ -578,15 +585,16 @@
                 "D": "3",
                 "spé": []
             }],
-        "options":["Le rayon incendiaire de cette figurine peut être remplacé par 1 déchiqueteur à particules ou 1 canon Gauss lourd jumelé"],
+        "options":["Le rayon incendiaire de cette figurine peut être remplacé par 1 déchiqueteur à particules ou 1 batterie de Canon Gauss lourds"],
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
                 "Destruction néfaste": "D3",
-                "Relai de visée": "À votre phase de Tir, chaque fois que cette figurine est choisie pour tirer, après avoir résolu ses attaques, choisissez 1 unité ennemie qui a été touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, cette unité ennemie ne peut pas avoir le Bénéfice du Couvert" 
+                "Relai de visée": "À votre phase de Tir, chaque fois que cette figurine est choisie pour tirer, après avoir résolu ses attaques, choisissez 1 unité ennemie qui a été touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, cette unité ennemie ne peut pas avoir le Bénéfice du Couvert",
+                "Eclaireurs": "8 pouces" 
             },
         "motclesfaction": ["Nécrons"],
-        "motscles": ["Véhicule", "Marcheur", "Rôdeur du Triarcat"],
+        "motscles": ["Véhicule", "Marcheur", "Rôdeur", "Triarcat"],
         "cout": "125"
     }
 ]
