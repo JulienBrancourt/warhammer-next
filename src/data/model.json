@@ -1,0 +1,43 @@
+{
+    "id": ,
+    "name": "",
+    "carac": {
+        "M": "",
+        "E": "",
+        "Svg": "+",
+        "PV": "",
+        "CD": "+",
+        "CO": ""
+    },
+    "tir": 
+        [{
+            "Arme":"",
+            "Portée": "",
+            "A": "",
+            "CT": "+",
+            "F": "",
+            "PA": "",
+            "D": "",
+            "spé": [""]
+        }],
+    "melee": 
+        [{
+            "Arme":"",
+            "Portée": "Mêlée",
+            "A": "",
+            "CC": "+",
+            "F": "",
+            "PA": "",
+            "D": "",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": ""
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": [],
+    "cout": ""
+}
