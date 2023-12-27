@@ -677,5 +677,109 @@
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Personnage", "Noble", "Tétrarque"],
         "cout": "85"
+    },
+    {
+    "id": 14,
+    "name": "Le Roi Silencieux : Szarekh",
+    "carac": {
+        "M": "8",
+        "E": "10",
+        "Svg": "2+",
+        "PV": "16",
+        "CD": "6+",
+        "CO": "6"
+    },
+    "tir": 
+        [{
+            "Arme":"Sceptre de Gloire Eternelle",
+            "Portée": "24",
+            "A": "2",
+            "CT": "2+",
+            "F": "10",
+            "PA": "-3",
+            "D": "3",
+            "spé": ["Blessures dévastatrices"]
+        },
+        {
+            "Arme":"Bâton des Etoiles",
+            "Portée": "24",
+            "A": "12",
+            "CT": "2+",
+            "F": "6",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Tir indirect"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Arme du Triarcat Ultime",
+            "Portée": "Mêlée",
+            "A": "12",
+            "CC": "2+",
+            "F": "8",
+            "PA": "-3",
+            "D": "2",
+            "spé": ["Touches fatales"]
+        }],
+    "options":["Voix du Triarcat :", "-Phaëron des Etoiles (Aura): relance des 1 pour toucher et pour blesser des figurines dont les unités Nécrons sont à 6 pouces de la figurine de Szarekh", "-Phaëron des Lames (Aura): relance des jets de Charge et 1 à la Force des attaques de mélée des figurines dont les unités Nécrons sont à 6 pouces de la figurine de Szarekh", "-Souverain de l'Unité (Aura): Tant qu'une unité Nécron est à 6 pouces de la figurine de Szarekh, vous pouvez ignorer certains ou tous les modificateurs aux caractéristiques des figurines de l'unité amieet à tous les jets ou tests pour les figurines de l'unité amie (sauf modifs aux jets de sauvegarde"],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Destruction néfaste": "D6+3, Szarekh uniquement",
+            "Commandant suprême": "doit être le Seigneur de guerre",
+            "Endommagé": "Tant que la figurine de Szarekh a 1-6 PV restant, divisez par 2 la caractéristique d'Attaques des armes de cette figurine, et à chaque attaque de cette unité soustrayez 1 au jet de touche.",
+            "Voix du Triarcat" : "Au début du round de bataille, choissisez une aptitude du Triarcat, jusqu'au début du prochain round de bataille, cette unité a l'aptitude choisie.",
+            "Sauvegarde Invulnérable": "4+",
+            "Le Roi Silencieux": "Aura 6 pouces de la figurine de Szarekh, 1 en Commandement."               
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Personnage", "Héros Epique", "Le Roi Silencieux"],
+    "cout": "420"
+    },
+        {
+    "id": 15,
+    "name": "Le Roi Silencieux : Menhir Triarcal",
+    "carac": {
+        "M": "8",
+        "E": "10",
+        "Svg": "2+",
+        "PV": "5",
+        "CD": "6+",
+        "CO": "1"
+    },
+    "tir": 
+        [{
+            "Arme":"Faisceau annihilateur",
+            "Portée": "24",
+            "A": "1",
+            "CT": "2+",
+            "F": "14",
+            "PA": "-4",
+            "D": "6",
+            "spé": []
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "1",
+            "CC": "4+",
+            "F": "4",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Composition d'unité": "Szarekh est accompagné de 2 Menhirs Triarcaux",
+            "Menhirs": "Si la figurine de Szarekh est détruite, les Menhirs sont également détruits",
+            "Sauvegarde Invulnérable": "4+"
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Personnage", "Héros Epique", "Le Roi Silencieux"],
+    "cout": ""
     }
 ]
