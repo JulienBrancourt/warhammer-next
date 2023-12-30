@@ -781,5 +781,120 @@
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Personnage", "Héros Epique", "Le Roi Silencieux"],
     "cout": ""
+    },
+    {
+    "id": 16,
+    "name": "Imotekh, le Seigneur des Tempêtes",
+    "carac": {
+        "M": "5",
+        "E": "5",
+        "Svg": "2+",
+        "PV": "6",
+        "CD": "6+",
+        "CO": "1"
+    },
+    "tir": 
+        [{
+            "Arme":"Gantelet du feu",
+            "Portée": "12",
+            "A": "D6",
+            "CT": "N/A",
+            "F": "5",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Ignore le couvert"," / Torrent"]
+        },
+        {
+            "Arme":"Bâton du Destroyer",
+            "Portée": "18",
+            "A": "3",
+            "CT": "2+",
+            "F": "6",
+            "PA": "-3",
+            "D": "2",
+            "spé": []
+        }],
+    "melee": 
+        [{
+            "Arme":"Bâton du Destroyer",
+            "Portée": "Mêlée",
+            "A": "4",
+            "CC": "2+",
+            "F": "6",
+            "PA": "-3",
+            "D": "2",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Grand Stratège": "Au début de votre phase de Commandement, si cette figurine est sur le champ de bataille, vous gagnez 1 PC.",
+            "Seigneur des Tempêtes": "Une fois par bataille, à la fin de la phase de Commandement : jetez 1D6 pour chaque unité ennemie à 12 pouces. Sur 2-5 l'unité subit D3 BM, sur 6 elle subit D3+3 BM.",
+            "Meneur": "Peut être attachée aux unités suivantes : Immortels, Factionnaires, Guerriers Nécrons.",
+            "Sauvegarde Invulnérable": "4+"
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie", "Personnage", "Héros Epique", "Noble", "Imotekh", "Le Seigneur des Tempêtes"],
+    "cout": "100"
+    },
+    {
+    "id": 17,
+    "name": "Illuminor Szeras",
+    "carac": {
+        "M": "8",
+        "E": "8",
+        "Svg": "2+",
+        "PV": "9",
+        "CD": "6+",
+        "CO": "3"
+    },
+    "tir": 
+        [{
+            "Arme":"Lance spectrale",
+            "Portée": "36",
+            "A": "3",
+            "CT": "3+",
+            "F": "9",
+            "PA": "-3",
+            "D": "3",
+            "spé": []
+        }],
+    "melee": 
+        [{
+            "Arme":"Lance spectrale",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CT": "3+",
+            "F": "9",
+            "PA": "-3",
+            "D": "3",
+            "spé": []
+        },
+        {
+            "Arme":"Jambes empaleuses",
+            "Portée": "Mêlée",
+            "A": "4",
+            "CT": "3+",
+            "F": "6",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Attaques bonus"]
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Insensible à la douleur": "4+",
+            "Illuminor": "Tant que cette figurine est à 3 pouces d'une autre unité Nécron, elle est agent solitaire.",
+            "Augmentation Mécanique (Aura)": "Tant qu'une unité Ligne Nécron est à 3 pouces, la PA est améliorée de 1 à chaque attaque d'une figurine de l'unité amie et dégradée de 1 à chaque attaque qui cible l'unité amie.",
+            "Manipulateur d'Energie Atomique": "A la fin de la phase de Combat, si cette figurine a détruit une ou plusieurs figurine à cette phase, jusqu'à la fin de la bataille, ajouter 3 pouces à la portée maximum d'Augmentation Mécanique (max 12 pouces)."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie", "Personnage", "Héros Epique", "Cryptek", "Illuminor Szeras"],
+    "cout": "160"
     }
 ]
