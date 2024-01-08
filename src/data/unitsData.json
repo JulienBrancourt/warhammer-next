@@ -1203,5 +1203,51 @@
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie","Personnage","Vol","Cryptek","Technomancien"],
     "cout": "60"
+    },
+    {
+    "id": 23,
+    "name": "Psychomancien",
+    "carac": {
+        "M": "5",
+        "E": "4",
+        "Svg": "4+",
+        "PV": "4",
+        "CD": "6+",
+        "CO": "1"
+    },
+    "tir": 
+        [{
+            "Arme":"Lance abyssale",
+            "Portée": "18",
+            "A": "1",
+            "CT": "4+",
+            "F": "6",
+            "PA": "-3",
+            "D": "3",
+            "spé": []
+        }],
+    "melee": 
+        [{
+            "Arme":"Lance abyssale",
+            "Portée": "Mêlée",
+            "A": "1",
+            "CT": "4+",
+            "F": "6",
+            "PA": "-3",
+            "D": "3",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Meneur":"Peut être attachée aux unités suivantes : Immortels, Guerriers Nécrons, , peut être attachée à une unité contenant un Garde Royal ou un Noble",
+            "Linceul de Cauchemar (Aura)": "A l'étape d'Ebranlement de la phase de Commandement adverse, si une unité ennemie qui est en dessous de son Effectif initial est à 6 pouces de cette figurine, l'unité ennemie doit faire un test d'Ebranlement avec -1 au test",
+            "Emissaire du Désespoir": "Une fois par tour, au début de votre phase de Commandement, de Mouvement, de Tir, de Charge ou de Combat, vous pouvez choisir 1 unité ennemie à 18 pouces de cette figurine. L'unité choisie doit faire un test d'Ebranlement avec -1 au test."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie", "Personnage", "Cryptek", "Psychomancien"],
+    "cout": "55"
     }
 ]
