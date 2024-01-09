@@ -1241,7 +1241,7 @@
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
-            "Meneur":"Peut être attachée aux unités suivantes : Immortels, Guerriers Nécrons, , peut être attachée à une unité contenant un Garde Royal ou un Noble",
+            "Meneur":"Peut être attachée aux unités suivantes : Immortels, Guerriers Nécrons, peut être attachée à une unité contenant un Garde Royal ou un Noble.",
             "Linceul de Cauchemar (Aura)": "A l'étape d'Ebranlement de la phase de Commandement adverse, si une unité ennemie qui est en dessous de son Effectif initial est à 6 pouces de cette figurine, l'unité ennemie doit faire un test d'Ebranlement avec -1 au test",
             "Emissaire du Désespoir": "Une fois par tour, au début de votre phase de Commandement, de Mouvement, de Tir, de Charge ou de Combat, vous pouvez choisir 1 unité ennemie à 18 pouces de cette figurine. L'unité choisie doit faire un test d'Ebranlement avec -1 au test."
                 
@@ -1249,5 +1249,162 @@
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie", "Personnage", "Cryptek", "Psychomancien"],
     "cout": "55"
+    },
+    {
+    "id": 24,
+    "name": "Chronomancien",
+    "carac": {
+        "M": "5",
+        "E": "4",
+        "Svg": "4+",
+        "PV": "4",
+        "CD": "6+",
+        "CO": "1"
+    },
+    "tir": 
+        [{
+            "Arme":"Sceptre de Chronomancien",
+            "Portée": "18",
+            "A": "D6",
+            "CT": "4+",
+            "F": "5",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Déflagration"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Sceptre de Chronomancien",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CC": "4+",
+            "F": "5",
+            "PA": "-1",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Meneur":"Peut être attachée aux unités suivantes : Immortels, Guerriers Nécrons, peut être attachée à une unité contenant un Garde Royal ou un Noble.",
+            "Cape d'Uchronie": "Tant que cette figurine mène une unité, chaque fois qu'une attaque cible l'unité, -1 au jet de Touche.",
+            "Chronomètron": "À votre phase de Tir, après que l’unité de cette figurine a tiré, si elle n’est à Portée d’Engagement d’aucune unité ennemie, elle peut faire un mouvement Normal de jusqu’à 5 pouces. En ce cas, jusqu’à la fin du tour, l’unité de cette figurine n’est pas éligible pour déclarer une charge."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie","Personnage","Cryptek","Chronomancien"],
+    "cout": "50"
+    },
+    {
+    "id": 25,
+    "name": "C'Tan Mystificateur",
+    "carac": {
+        "M": "6",
+        "E": "11",
+        "Svg": "4+",
+        "PV": "12",
+        "CD": "6+",
+        "CO": "6"
+    },
+    "tir": 
+        [{
+            "Arme":"Folie Cosmique",
+            "Portée": "18",
+            "A": "6",
+            "CT": "2+",
+            "F": "6",
+            "PA": "-2",
+            "D": "1",
+            "spé": ["Anti-Personnage"," / Blessures dévastatrices"," / Précision"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Poings dorés",
+            "Portée": "Mêlée",
+            "A": "8",
+            "CC": "2+",
+            "F": "8",
+            "PA": "-3",
+            "D": "3",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Insensible à la douleur":"5+",
+            "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
+            "Destruction néfaste":"D6",
+            "Discrétion":"",
+            "Grande Illusion": "Si votre armée inclut cette figurine, après que les deux joueurs ont déployé leurs armées, choisissez jusqu’à trois unités Nécrons de votre armée et redéployez les. Ce faisant, vous pouvez placer certaines ou toutes ces unités en Réserve Stratégique si désiré, quel que soit le nombre d’unités se trouvant déjà en Réserve Stratégique.",
+            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Mystificateur"],
+    "cout": "265"
+    },
+    {
+    "id": 26,
+    "name": "C'tan Nyctophore",
+    "carac": {
+        "M": "6",
+        "E": "11",
+        "Svg": "4+",
+        "PV": "12",
+        "CD": "6+",
+        "CO": "4"
+    },
+    "tir": 
+        [{
+            "Arme":"Regard de mort",
+            "Portée": "18",
+            "A": "D3",
+            "CT": "2+",
+            "F": "12",
+            "PA": "-2",
+            "D": "D6+3",
+            "spé": []
+        }],
+    "melee": 
+        [{
+            "Arme":"Faux de Nyctophore - frappe",
+            "Portée": "Mêlée",
+            "A": "6",
+            "CC": "2+",
+            "F": "14",
+            "PA": "-4",
+            "D": "D6+2",
+            "spé": ["Blessures dévastatrices"]
+        },
+        {
+            "Arme":"Faux de Nyctophore - balayage",
+            "Portée": "Mêlée",
+            "A": "14",
+            "CC": "2+",
+            "F": "8",
+            "PA": "-2",
+            "D": "2",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Insensible à la douleur":"5+",
+            "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
+            "Destruction néfaste":"D6",
+            "Faux du Nyctophore": "choisissez un des profils avant de choisir des cibles pour cette arme.",
+            "Drain de Vie": "A la fin de la phase de Combat, jetez 1D6 pour chaque unité ennemie à 6 pouces : sur 4+, l'unité ennemie subit D3 BM.",
+            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Nyctophore"],
+    "cout": "255"
     }
 ]
