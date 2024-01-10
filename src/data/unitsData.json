@@ -1639,6 +1639,8 @@
         "CD": "7+",
         "CO": "1"
     },
+    "tir": 
+        [],
     "melee": 
         [{
             "Arme":"Griffes de Dépeceur",
@@ -1742,6 +1744,8 @@
         "CD": "7+",
         "CO": "2"
     },
+    "tir": 
+        [],
     "melee": 
         [{
             "Arme":"Armes d'hyperphase ophydiennes",
