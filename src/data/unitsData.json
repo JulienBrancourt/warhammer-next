@@ -1317,7 +1317,7 @@
             "F": "6",
             "PA": "-2",
             "D": "1",
-            "spé": ["Anti-Personnage"," / Blessures dévastatrices"," / Précision"]
+            "spé": ["Anti-Personnage 4+"," / Blessures dévastatrices"," / Précision"]
         }],
     "melee": 
         [{
@@ -1398,7 +1398,6 @@
             "Insensible à la douleur":"5+",
             "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
             "Destruction néfaste":"D6",
-            "Faux du Nyctophore": "choisissez un des profils avant de choisir des cibles pour cette arme.",
             "Drain de Vie": "A la fin de la phase de Combat, jetez 1D6 pour chaque unité ennemie à 6 pouces : sur 4+, l'unité ennemie subit D3 BM.",
             "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
                 
@@ -1406,5 +1405,588 @@
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Nyctophore"],
     "cout": "255"
+    },
+    {
+    "id": 27,
+    "name": "C'Tan Dragon du Néant",
+    "carac": {
+        "M": "6",
+        "E": "11",
+        "Svg": "4+",
+        "PV": "12",
+        "CD": "6+",
+        "CO": "4"
+    },
+    "tir": 
+        [{
+            "Arme":"Lance du Dragon du Néant",
+            "Portée": "12",
+            "A": "1",
+            "CT": "2+",
+            "F": "4",
+            "PA": "-3",
+            "D": "D6+2",
+            "spé": ["Anti-Véhicule 2+"]
+        },
+        {
+            "Arme":"Tempête voltaïque",
+            "Portée": "18",
+            "A": "D6+3",
+            "CT": "2+",
+            "F": "7",
+            "PA": "-1",
+            "D": "2",
+            "spé": ["Déflagration"," / Touches soutenues 2"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Lance du Dragon du Néant - frappe",
+            "Portée": "Mêlée",
+            "A": "5",
+            "CC": "2+",
+            "F": "12",
+            "PA": "-3",
+            "D": "D6+2",
+            "spé": ["Anti-Véhicule 2+"]
+        },
+        {
+            "Arme":"Lance du Dragon du Néant - balayage",
+            "Portée": "Mêlée",
+            "A": "10",
+            "CC": "2+",
+            "F": "8",
+            "PA": "-1",
+            "D": "2",
+            "spé": []
+        },
+        {
+            "Arme":"Lames caudales canopteks",
+            "Portée": "Mêlée",
+            "A": "6",
+            "CC": "2+",
+            "F": "6",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Attaques bonus"]
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Insensible à la douleur":"5+",
+            "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
+            "Destruction néfaste":"D6",
+            "Absorption de Matière": "Au début de votre phase de Tir, choisissez 1unité Véhicule ennemie à 12 pouces de cette figurine et jetez 1D6: sur 2+,l’unité ennemie subit D3 blessures mortelles et cette figurine récupère jusqu’à ce nombre de PV perdus.",
+            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Dragon du Néant"],
+    "cout": "270"
+    },
+    {
+    "id": 28,
+    "name": "C'Tan Transcendant",
+    "carac": {
+        "M": "6",
+        "E": "11",
+        "Svg": "4+",
+        "PV": "12",
+        "CD": "6+",
+        "CO": "4"
+    },
+    "tir": 
+        [{
+            "Arme":"Assaut sismique",
+            "Portée": "12",
+            "A": "6",
+            "CT": "2+",
+            "F": "8",
+            "PA": "-2",
+            "D": "D3",
+            "spé": ["Assaut", " / Touches soutenues 1"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Vrilles crépitantes",
+            "Portée": "Mêlée",
+            "A": "8",
+            "CC": "2+",
+            "F": "9",
+            "PA": "-3",
+            "D": "D6",
+            "spé": ["Touches soutenues 1"]
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Insensible à la douleur":"5+",
+            "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
+            "Destruction néfaste":"D6",
+            "Frappe en profondeur": "",
+            "Echarde C'Tan": "Ne peut pas recevoir d'Optimisations",
+            "Déplacement Transdimensionnel": "Chaque fois que cette figurine est choisie pour Avancer, vous pouvez la retirer du champ de bataille et la replacer n’importe où sur le champ de bataille à plus de 9 pouces à l’horizontale des figurines ennemies.",
+            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Monstre", "Personnage", "Vol", "C'Tan Transcendant"],
+    "cout": "275"
+    },
+    {
+    "id": 29,
+    "name": "Destroyer Hexmark",
+    "carac": {
+        "M": "8",
+        "E": "5",
+        "Svg": "3+",
+        "PV": "5",
+        "CD": "6+",
+        "CO": "1"
+    },
+    "tir": 
+        [{
+            "Arme":"Pistolets désintégrateurs d'hostiles",
+            "Portée": "18",
+            "A": "6",
+            "CT": "2+",
+            "F": "6",
+            "PA": "-2",
+            "D": "1",
+            "spé": ["Ignore le couvert", " / Pistolet"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Arme de corps à corps",
+            "Portée": "Mêlée",
+            "A": "4",
+            "CC": "3+",
+            "F": "5",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Frappe en profondeur":"",
+            "Agent Solitaire": "",
+            "Mort Inéluctable": "Une fois par tour, 1 unité de votre armée ayant cette aptitude peut être ciblée par le Stratagème Tir en État d’Alerte pour OPC, même si vous avez déjà ciblé une unité différente avec ce Stratagème à cette phase. De plus, chaque fois que vous ciblez cette unité avec le Stratagème Tir en État d’Alerte, en résolvant ce Stratagème, des touches sont causées sur des jets de Touche non modifiés de 2+.",
+            "Eliminateur de Menaces Multiples": "Une fois par tour, à la phase de Tir adverse, quand une unité ennemie fait une attaque de tir qui cible une unité Nécrons amie à 3 pouces d’une figurine ayant cette aptitude, après que l’unité ennemie a tiré, 1 figurine ayant cette aptitude qui est à 3 pouces de cette cible peut tirer comme si c’était votre phase de Tir, mais elle doit cibler seulement l’unité ennemie en question ce faisant, et elle peut le faire seulement si cette unité ennemie est une cible éligible."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie", "Personnage", "Culte Destroyer", "Destroyer Hexmark"],
+    "cout": "70"
+    },
+    {
+    "id": 30,
+    "name": "Traqueurs (5/10)",
+    "carac": {
+        "M": "5",
+        "E": "5",
+        "Svg": "3+",
+        "PV": "1",
+        "CD": "7+",
+        "CO": "1"
+    },
+    "tir": 
+        [{
+            "Arme":"Désintégrateur synaptique",
+            "Portée": "36",
+            "A": "1",
+            "CT": "3+",
+            "F": "5",
+            "PA": "-2",
+            "D": "2",
+            "spé": ["Lourd", " / Précision"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Arme de corps à corps",
+            "Portée": "Mêlée",
+            "A": "2",
+            "CC": "3+",
+            "F": "4",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Frappe en profondeur":"",
+            "Chasseurs de l'Hyperespace": "Une fois par tour, à l’étape des Renforts de la phase de Mouvement adverse, quand une unité ennemie est placée sur le champ de bataille depuis les Réserves à 18 pouces et visible de cette unité, cette unité peut tirer comme si c’était votre phase de Tir, mais elle doit cibler seulement l’unité ennemie en question ce faisant, et elle peut le faire seulement si cette unité ennemie est une cible éligible."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie", "Traqueurs"],
+    "cout": "65/130"
+    },
+    {
+    "id": 31,
+    "name": "Dépeceurs (5/10)",
+    "carac": {
+        "M": "5",
+        "E": "4",
+        "Svg": "4+",
+        "PV": "1",
+        "CD": "7+",
+        "CO": "1"
+    },
+    "melee": 
+        [{
+            "Arme":"Griffes de Dépeceur",
+            "Portée": "Mêlée",
+            "A": "4",
+            "CC": "3+",
+            "F": "4",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Touches soutenues 1", " / Jumelé"]
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Infiltrateurs": "",
+            "Discrétion":"",
+            "Dévoreurs de Chair": "A chaque attaque de mêlée d’une figurine de cette unité, si la cible de l’attaque est En Dessous de son Demi-effectif, un jet de Touche réussi cause une Touche Critique."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie", "Dépeceurs"],
+    "cout": "70/140"
+    },
+    {
+    "id": 32,
+    "name": "Mécanoptères (3/6)",
+    "carac": {
+        "M": "12",
+        "E": "5",
+        "Svg": "4+",
+        "PV": "2",
+        "CD": "7+",
+        "CO": "2"
+    },
+    "tir": 
+        [{
+            "Arme":"Faisceau de particules",
+            "Portée": "18",
+            "A": "D6",
+            "CT": "3+",
+            "F": "5",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Déflagration", " / Blessures dévastatrices"]
+        },
+        {
+            "Arme":"Eclateur Gauss jumelé",
+            "Portée": "24",
+            "A": "2",
+            "CT": "3+",
+            "F": "5",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Touches fatales", " / Jumelé"]
+        },
+        {
+            "Arme":"Carabine Tesla jumelée",
+            "Portée": "24",
+            "A": "2",
+            "CT": "3+",
+            "F": "5",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Assaut", " / Touches soutenues 2", " / Jumelé"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Arme de corps à corps",
+            "Portée": "Mêlée",
+            "A": "1",
+            "CC": "4+",
+            "F": "4",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":["L'éclateur Gauss jumelé peut être remplacé 1 faisceau à particules ou 1 carabine Tesla jumelée.", "Chaque figurine peut être équipée d'ailerons renforcés.", "Chaque figurine peut être équipée d'1 nébuloscope ou d'1 tisse-ombre."],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Eclaireurs":"9 pouces",
+            "Engrammes d'Esquive": "À votre phase de Tir, après que cette unité a tiré, elle peut faire un mouvement Normal de jusqu’à 6 pouces. En ce cas, jusqu’à la fin du tour, cette unité n’est pas éligible pour déclarer une charge.",
+            "Nébuloscope": "Les armes de tir du porteur ont l'aptitude Ignore le Couvert.",
+            "Tisse-ombre": "Le porteur à l'aptitude Discrétion.",
+            "Ailerons renforcés": "La sauvegarde passe à 3+ et le Mouvement passe à 8 pouces."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Monté", "Vol", "Mécanoptères"],
+    "cout": "75/150"
+    },
+    {
+    "id": 33,
+    "name": "Destroyers Ophidiens (3/6)",
+    "carac": {
+        "M": "10",
+        "E": "5",
+        "Svg": "4+",
+        "PV": "3",
+        "CD": "7+",
+        "CO": "2"
+    },
+    "melee": 
+        [{
+            "Arme":"Armes d'hyperphase ophydiennes",
+            "Portée": "Mêlée",
+            "A": "5",
+            "CC": "3+",
+            "F": "4",
+            "PA": "-2",
+            "D": "2",
+            "spé": []
+        }],
+    "options":["1 Plasmacyte par tranche de 3 figurines"],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Frappe en profondeur": "",
+            "Horreurs Fouisseuses": "À la fin du tour adverse, si cette unité n’est à Portée d’Engagement d’aucune unité ennemie, vous pouvez retirer cette unité du champ de bataille. À l’étape des Renforts de votre prochaine phase de Mouvement, placez-la n’importe où sur le champ de bataille à plus de 9 pouces à l’horizontale des figurines ennemies.",
+            "Plasmacyte":"Une fois par bataille pour chaque Plasmacyte que possède cette unité, quand cette unité est choisie pour combattre, vous pouvez utiliser cette aptitude. En ce cas, jusqu’à la fin de la phase, les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude Blessures dévastatrices"
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Infanterie", "Culte Destroyer", "Destroyers Ophydiens"],
+    "cout": "100/200"
+    },
+    {
+    "id": 34,
+    "name": "Destroyers Lourds Lokhusts (1/2/3)",
+    "carac": {
+        "M": "8",
+        "E": "6",
+        "Svg": "3+",
+        "PV": "4",
+        "CD": "7+",
+        "CO": "2"
+    },
+    "tir": 
+        [{
+            "Arme":"Exterminateur d'hostiles",
+            "Portée": "36",
+            "A": "6",
+            "CT": "3+",
+            "F": "6",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Lourd", " / Tir rapide 6", " / Touches soutenues 1"]
+        },
+        {
+            "Arme":"Destructeur Gauss",
+            "Portée": "48",
+            "A": "1",
+            "CT": "3+",
+            "F": "14",
+            "PA": "-4",
+            "D": "6",
+            "spé": ["Lourd", " / Touches Fatales"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Arme de corps à corps",
+            "Portée": "Mêlée",
+            "A": "2",
+            "CC": "3+",
+            "F": "4",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":["Chaque figurine peut remplacer sont Destructeur Gauss par 1 Exterminateur d'hostiles."],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Optimiser pour Massacrer": "À chaque attaque d’une figurine de cette unité avec un exterminateur d’hostiles qui cible une unité (Monstres et Véhicules exclus), relancez tout jet de Blessure de 1. À chaque attaque d’une figurine de cette unité avec un destructeur Gauss qui cible un Monstre ou un Véhicule, relancez tout jet de Blessure de 1."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Monté", "Vol", "Culte Destroyer", "Destroyers Lourds Lokhusts"],
+    "cout": "50/100/150"
+    },
+    {
+    "id": 35,
+    "name": "Arachnydes Canopteks (1/2)",
+    "carac": {
+        "M": "5",
+        "E": "7",
+        "Svg": "3+",
+        "PV": "6",
+        "CD": "8+",
+        "CO": "2"
+    },
+    "tir": 
+        [{
+            "Arme":"Faisceau de particules",
+            "Portée": "18",
+            "A": "D6",
+            "CT": "3+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Déflagration", " / Blessures dévastatrices"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Pinces-automates",
+            "Portée": "Mêlée",
+            "A": "5",
+            "CC": "4+",
+            "F": "8",
+            "PA": "-2",
+            "D": "2",
+            "spé": []
+        }],
+    "options":["peut être équipée de 2 faisceaux de particules.", "peut être équipée de 1 panoplie de pinces.", "peut être équipée de 1 prisme de noirceur."],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Destruction néfaste":"1",
+            "Nuée Canoptek": "À votre phase de Commandement, choisissez1unité Nuée Scarabées Canopteks amie à 6 pouces de cette unité. 1 figurine détruite est restituée à l’unité Nuée Scarabées Canopteks choisie pour chaque figurine Arachnyde de cette unité.",
+            "Panoplie de Pinces (Aura)": "Donne Insensible à la Douleur 6+ aux Véhicules à 6 pouces.",
+            "Prisme de Noirceur (Aura)": "Donne Insensible à la Douleur 5+ contre les BM et les Attaques Psychiques."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Vol", "Arachnydes"],
+    "cout": "75/150"
+    },
+    {
+    "id": 36,
+    "name": "Spectres Canopteks (3/6)",
+    "carac": {
+        "M": "10",
+        "E": "6",
+        "Svg": "3+",
+        "PV": "4",
+        "CD": "8+",
+        "CO": "2"
+    },
+    "tir": 
+        [{
+            "Arme":"Projecteur de particules",
+            "Portée": "12",
+            "A": "3",
+            "CT": "4+",
+            "F": "5",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Blessures dévastatrices", " / Pistolet"]
+        },
+        {
+            "Arme":"Faisceau transdimensionnel",
+            "Portée": "12",
+            "A": "1",
+            "CT": "4+",
+            "F": "4",
+            "PA": "-2",
+            "D": "3",
+            "spé": []
+        }],
+    "melee": 
+        [{
+            "Arme":"Griffes acérées",
+            "Portée": "Mêlée",
+            "A": "4",
+            "CC": "4+",
+            "F": "6",
+            "PA": "-1",
+            "D": "2",
+            "spé": []
+        },
+        {
+            "Arme":"Câbles constricteurs",
+            "Portée": "Mêlée",
+            "A": "8",
+            "CC": "4+",
+            "F": "5",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":["peut être équipé d'1 projecteur de particules ou d'1 faisceau transdimensionnel", "peut remplacer les griffes acérées par 1 câble constricteur"],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Enveloppe Spectrale": "Chaque fois que cette unité finit un mouvement Normal, vous pouvez choisir 1 unité ennemie par-dessus laquelle elle s’est déplacée durant ce mouvement et jetez 1D6 pour chaque figurine de cette unité : pour chaque 4+, l’unité ennemie choisie subit 1 BM."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Bêtes", "Vol", "Canoptek", "Spectres"],
+    "cout": "110/220"
+    },
+    {
+    "id": 37,
+    "name": "Maraudeur Canoptek",
+    "carac": {
+        "M": "8",
+        "E": "8",
+        "Svg": "3+",
+        "PV": "12",
+        "CD": "8+",
+        "CO": "4"
+    },
+    "tir": 
+        [{
+            "Arme":"Eclateur du Jugement Dernier",
+            "Portée": "48",
+            "A": "D6+1",
+            "CT": "4+",
+            "F": "14",
+            "PA": "-3",
+            "D": "3",
+            "spé": ["Déflagration", " / Lourd"]
+        },
+        {
+            "Arme":"Ecorcheur Gauss jumelé",
+            "Portée": "24",
+            "A": "1",
+            "CT": "4+",
+            "F": "4",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Touches fatales", " / Tir rapide 1", " / Jumelé"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Jambes de Maraudeur",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CC": "4+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Destruction néfaste":"D3",
+            "Endommagé":"Tant que cette figurine de Szarekh a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Mécanopode Sentinelle" : "Chaque fois que vous ciblez cette unité avec le Stratagème Tir en État d’Alerte, en résolvant ce Stratagème, des touches sont causées sur des jets de Touche non modifiés de 5+."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Vol", "Canoptek", "Maraudeur"],
+    "cout": "135"
     }
 ]
