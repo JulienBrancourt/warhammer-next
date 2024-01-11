@@ -39,6 +39,27 @@
   font-family: var(--font-mono);
 }
 
+.top {
+  position: sticky;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top:hover {
+  background-color: #2980b9;
+}
+
+.top:active {
+  background-color: #1f618d;
+}
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));

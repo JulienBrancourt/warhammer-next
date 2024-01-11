@@ -16,7 +16,10 @@ const Home = () => {
   removeAccents(unit.name.toLowerCase()).includes(removeAccents(searchText.toLowerCase()))
   )
 
-  
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }
+
   return (
     <main>
       <Navbar />
@@ -30,6 +33,10 @@ const Home = () => {
             onChange={(e) => setSearchText(e.target.value)}
             />
         </div>
+
+        <button className="top" onClick={scrollToTop}>
+          Scroll to Top
+        </button>
 
         <ul className="unit-list">
           {filtreUnits.map((unit, id) => (
