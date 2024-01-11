@@ -8,8 +8,14 @@ const Home = () => {
   const [dataUnits, setDataUnits] = useState(unitsData);
   const [searchText, setSearchText] = useState("")
 
+  function removeAccents(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
   const filtreUnits = dataUnits.filter((unit) =>
-    unit.name.toLowerCase().includes(searchText.toLowerCase()))
+  removeAccents(unit.name.toLowerCase()).includes(removeAccents(searchText.toLowerCase()))
+  )
+
   
   return (
     <main>

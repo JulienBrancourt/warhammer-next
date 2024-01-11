@@ -7,10 +7,14 @@ import './regles.css';
 const Regles = () => {
   const [searchRule, setSearchRule] = useState("");
   
-  const filteredRules = Object.entries(rulesData[0]).filter(([key, description]) =>
-    key.toLowerCase().includes(searchRule.toLowerCase()) ||
-    description.toLowerCase().includes(searchRule.toLowerCase())
-  );
+  function removeAccents(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+const filteredRules = Object.entries(rulesData[0]).filter(([key, description]) =>
+  removeAccents(key.toLowerCase()).includes(removeAccents(searchRule.toLowerCase())) ||
+  removeAccents(description.toLowerCase()).includes(removeAccents(searchRule.toLowerCase()))
+);
 
   return (
     <main>

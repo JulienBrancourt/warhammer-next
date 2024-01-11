@@ -76,7 +76,7 @@ const Card = ({ unit }) => {
             </table>
           </div>
       ) : (
-        <p>Aucune arme de tir.</p>
+        <p>Aucune arme de CC.</p>
       )}
 
       <div className='zone-text'>
