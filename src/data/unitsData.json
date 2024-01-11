@@ -1985,12 +1985,517 @@
             "Protocoles de réanimation": "",
             "Sauvegarde Invulnérable":"4+",
             "Destruction néfaste":"D3",
-            "Endommagé":"Tant que cette figurine de Szarekh a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Endommagé":"Tant que cette figurine a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
             "Mécanopode Sentinelle" : "Chaque fois que vous ciblez cette unité avec le Stratagème Tir en État d’Alerte, en résolvant ce Stratagème, des touches sont causées sur des jets de Touche non modifiés de 5+."
                 
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Vol", "Canoptek", "Maraudeur"],
     "cout": "135"
+    },
+    {
+    "id": 38,
+    "name": "Console d'Annihilation",
+    "carac": {
+        "M": "10",
+        "E": "8",
+        "Svg": "3+",
+        "PV": "9",
+        "CD": "7+",
+        "CO": "3"
+    },
+    "tir": 
+        [{
+            "Arme":"Canon Gauss",
+            "Portée": "24",
+            "A": "3",
+            "CT": "3+",
+            "F": "5",
+            "PA": "-2",
+            "D": "2",
+            "spé": ["Touches fatales"]
+        },
+        {
+            "Arme":"Canon Tesla",
+            "Portée": "24",
+            "A": "4",
+            "CT": "3+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Touches soutenues 2"]
+        },
+        {
+            "Arme":"Destructeur Tesla jumelé",
+            "Portée": "36",
+            "A": "6",
+            "CT": "3+",
+            "F": "8",
+            "PA": "0",
+            "D": "2",
+            "spé": ["Touches soutenues 2", " / Jumelé"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CC": "4+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":["peut remplacer son canon Gauss par 1 canon Tesla"],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Destruction néfaste":"1",
+            "Décharges Malveillantes": "À votre phase de Tir, chaque fois que vous choisissez une cible pour le destructeur Tesla jumelé de cette figurine, jetez 1D6 pour l’unité cible et 1D6 pour chaque autre unité ennemie à 3 pouces de l’unité cible. Sur 5+, l'unité concernée par le jet est frappée par des décharges, après avoir résolu toutes les attaques de cette figurine contre l’unité cible, chaque unité frappée par des décharges subit D3 blessures mortelles."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Vol", "Console d'Annihilation"],
+    "cout": "115"
+    },
+    {
+    "id": 39,
+    "name": "Arche du Jugement Dernier",
+    "carac": {
+        "M": "10",
+        "E": "9",
+        "Svg": "3+",
+        "PV": "14",
+        "CD": "7+",
+        "CO": "5"
+    },
+    "tir": 
+        [{
+            "Arme":"Canon Jugement Dernier",
+            "Portée": "72",
+            "A": "D6+1",
+            "CT": "3+",
+            "F": "18",
+            "PA": "-4",
+            "D": "4",
+            "spé": ["Déflagration", " / Lourd"]
+        },
+        {
+            "Arme":"Bordée Gauss",
+            "Portée": "24",
+            "A": "5",
+            "CT": "3+",
+            "F": "4",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Touches fatales", " / Tir rapide 5"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CC": "4+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Endommagé":"Tant que cette figurine a 1-5 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Destruction néfaste":"D3",
+            "Oblitération Absolue": "À votre phase de Mouvement, si cette figurine Reste Immobile, jusqu’à la fin du tour, son canon Jugement Dernier a l’aptitude BLESSURES DÉVASTATRICES."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Vol", "Arche du Jugement Dernier"],
+    "cout": "200"
+    },
+    {
+    "id": 40,
+    "name": "Arche Fantôme",
+    "carac": {
+        "M": "10",
+        "E": "9",
+        "Svg": "3+",
+        "PV": "14",
+        "CD": "7+",
+        "CO": "3"
+    },
+    "tir": 
+        [{
+            "Arme":"Bordée Gauss",
+            "Portée": "24",
+            "A": "5",
+            "CT": "3+",
+            "F": "4",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Touches fatales", " / Tir rapide 5"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CC": "4+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Sauvegarde Invulnérable":"4+",
+            "Destruction néfaste":"D3",
+            "Transport": "Cette figurine a une capacité de transport de 10 figurines Guerrier Nécron et 1figurine Personnage Infanterie Nécrons.",
+            "Barge de réparation": "Une fois par tour, juste après qu’une unité ennemie a résolu ses attaques, si une ou plusieurs unités Guerriers Nécrons amies à 3 pouces de cette figurine ont perdu un ou plusieurs points de vie suite à ces attaques, cette figurine peut utiliser cette aptitude. En ce cas, choisissez 1de ces unités Guerriers Nécrons : les Protocoles de Réanimation de l’unité choisie s’activent. La même unité Guerriers Nécrons ne peut pas être choisie pour cette aptitude plus d’une fois par tour."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Vol", "Transport", "Transport Assigné", "Arche Fantôme"],
+    "cout": "125"
+    },
+    {
+    "id": 41,
+    "name": "Faucheur",
+    "carac": {
+        "M": "20+",
+        "E": "9",
+        "Svg": "3+",
+        "PV": "12",
+        "CD": "7+",
+        "CO": "0"
+    },
+    "tir": 
+        [{
+            "Arme":"Rayon de mort lourd",
+            "Portée": "36",
+            "A": "3",
+            "CT": "3+",
+            "F": "16",
+            "PA": "-4",
+            "D": "D6+1",
+            "spé": ["Touches soutenues D3"]
+        },
+        {
+            "Arme":"Destructeur Tesla jumelé",
+            "Portée": "36",
+            "A": "6",
+            "CT": "3+",
+            "F": "8",
+            "PA": "0",
+            "D": "2",
+            "spé": ["Touches soutenues 2", " / Jumelé"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CC": "4+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Destruction néfaste":"D3",
+            "Endommagé":"Tant que cette figurine a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Instigation Atavique": "Chaque fois que cette figurine cible une unité ennemie avec son rayon de mort lourd, votre adversaire doit déclarer si l’unité tient ses positions ou se met à couvert : Si elle tient ses positions, en résolvant des attaques de tir contre cette unité ennemie à cette phase, un jet de Touche non modifié de 5+ réussi cause une Touche Critique. Si elle se met à couvert, jusqu’au début de votre prochaine phase de Tir, à chaque attaque d’une figurine de cette unité ennemie, soustrayez 1 au jet de Touche."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Vol", "Aérodyne", "Faucheur"],
+    "cout": "230"
+    },
+    {
+    "id": 42,
+    "name": "Moissonneur",
+    "carac": {
+        "M": "20+",
+        "E": "9",
+        "Svg": "3+",
+        "PV": "12",
+        "CD": "7+",
+        "CO": "0"
+    },
+    "tir": 
+        [{
+            "Arme":"Destructeur Tesla jumelé",
+            "Portée": "36",
+            "A": "6",
+            "CT": "3+",
+            "F": "8",
+            "PA": "0",
+            "D": "2",
+            "spé": ["Touches soutenues 2", " / Jumelé"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "3",
+            "CC": "4+",
+            "F": "6",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Destruction néfaste":"D3",
+            "Endommagé":"Tant que cette figurine a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Transport":"Cette figurine a une capacité de transport de 1  Infanterie Nécrons.",
+            "Envahisseur QUantique": "Cette figurine peut être placée à l’étape des Renforts de votre première, de votre seconde ou de votre troisième phase de Mouvement, quelles que soient les règles de la mission.",
+            "Rayons d'Invasion": "À la fin de la phase de Combat, s’il n’y a aucune figurine embarquée dans ce Transport, vous pouvez choisir1unité Infanterie Nécrons amie entièrement à 6 pouces de ce Transport. À moins que l’unité choisie ne soit à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut embarquer dans ce Transport."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Aérodyne", "Vol", "Transport", "Moissonneur"],
+    "cout": "145"
+    },
+    {
+    "id": 43,
+    "name": "Obélisque",
+    "carac": {
+        "M": "8",
+        "E": "13",
+        "Svg": "2+",
+        "PV": "24",
+        "CD": "7+",
+        "CO": "8"
+    },
+    "tir": 
+        [{
+            "Arme":"Sphère Tesla",
+            "Portée": "24",
+            "A": "6",
+            "CT": "3+",
+            "F": "7",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Touches soutenues 2", " / Anti-vol 4+"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "6",
+            "CC": "4+",
+            "F": "8",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "4 sphères Tesla": "",
+            "Destruction néfaste":"D6",
+            "Frappe en profondeur": "",
+            "Endommagé":"Tant que cette figurine a 1-8 PV restant, soustrayez 4 à sa caractéristique de CO et à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Impulsion Gravitique": "Au début de la phase de Mouvement adverse, vous pouvez choisir 1unité ennemie à 18 pouces et visible de cette figurine. Jusqu’à la fin du tour, divisez par deux la caractéristique de Mouvement des figurines de l'unité ennemie choisie et divisez par deux les jets d’Avance et de Charge pour elle. De plus, si l’unité ennemie choisie a le mot-clé Vol, jusqu’au début de votre prochaine phase de Mouvement, jetez 1D6 chaque fois que cette unité ennemie finit n’importe quel type de mouvement : sur 4+, elle subit D3 blessures mortelles."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Titanesque", "Vol", "Imposant", "Obélisque"],
+    "cout": "325"
+    },
+    {
+    "id": 44,
+    "name": "Crypte Tesseract",
+    "carac": {
+        "M": "8",
+        "E": "12",
+        "Svg": "2+",
+        "PV": "24",
+        "CD": "7+",
+        "CO": "8"
+    },
+    "tir": 
+        [{
+            "Arme":"Sphère Tesla",
+            "Portée": "24",
+            "A": "6",
+            "CT": "3+",
+            "F": "7",
+            "PA": "0",
+            "D": "1",
+            "spé": ["Touches soutenues 2"]
+        },
+        {
+            "Arme":"Pouvoir : Météore d'Antimatière",
+            "Portée": "24",
+            "A": "D6+3",
+            "CT": "3+",
+            "F": "10",
+            "PA": "-3",
+            "D": "3",
+            "spé": ["Déflagration", " / Blessures dévastatrices", " / Tir indirect"]
+        },
+        {
+            "Arme":"Pouvoir : Feu Cosmique",
+            "Portée": "18",
+            "A": "3D6",
+            "CT": "N/A",
+            "F": "6",
+            "PA": "-2",
+            "D": "1",
+            "spé": ["Blessures dévastatrices", " / Torrent", " / Ignore le couvert"]
+        },
+        {
+            "Arme":"Pouvoir : Flèche du Temps",
+            "Portée": "24",
+            "A": "1",
+            "CT": "2+",
+            "F": "3",
+            "PA": "-2",
+            "D": "6",
+            "spé": ["Anti-Personnage 4+", " / Blessures dévastatrices", " / Précision"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Masse blindée",
+            "Portée": "Mêlée",
+            "A": "6",
+            "CC": "4+",
+            "F": "8",
+            "PA": "0",
+            "D": "1",
+            "spé": []
+        }],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "4 sphères Tesla":"",
+            "Destruction néfaste":"D6+3",
+            "Sauvegarde Invulnérable":"4+",
+            "Endommagé":"Tant que cette figurine a 1-8 PV restant, soustrayez 4 à sa caractéristique de CO et vous ne pouvez choisir qu'une seule arle de Pouvoirs des C'Tan à votre phase de Tir.",
+            "Pouvoirs des C'Tan": "À votre phase de Tir, quand cette figurine est choisie pour tirer, choisissez jusqu’à deux armes de Pouvoirs des C’tan différentes. Jusqu’à la fin de la phase, cette figurine est équipée de ces armes en plus de ses autres armes."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Titanesque", "Vol", "Imposant", "Crypte Tesseract"],
+    "cout": "400"
+    },
+    {
+    "id": 45,
+    "name": "Convergence de Domination (1/2/3)",
+    "carac": {
+        "M": "-",
+        "E": "9",
+        "Svg": "3+",
+        "PV": "7",
+        "CD": "8+",
+        "CO": "0"
+    },
+    "tir": 
+        [{
+            "Arme":"Abducteur transdimensionnel",
+            "Portée": "18",
+            "A": "3",
+            "CT": "4+",
+            "F": "6",
+            "PA": "-2",
+            "D": "3",
+            "spé": []
+        }],
+    "melee": 
+        [],
+    "options":[],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Déploiement": "Quand cette unité est placée pour la première fois sur le champ de bataille, ses figurines n’ont pas à être placées en Cohésion d’Unité. À la place, chaque figurine doit être placée entièrement à 12 pouces d’une autre figurine de son unité. Dès lors, chaque figurine de cette unité est traitée comme une unité séparée.",
+            "Relai de Réanimation (Aura)": "Tant qu'une unité Infanterie Nécrons amie est à 6 pouces de cette Fortification, les figurines de l’unité ont l’aptitude Insensible à la Douleur 6+.",
+            "Couvert Antique": "à chaque attaque de tir qui cible une figurine, si ladite figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette Fortification, la figurine a le Bénéfice du Couvert contre l’attaque.",
+            "Fortification": "Tant qu’une unité ennemie est seulement à Portée d'Engagement d’une ou plusieurs Fortifications de votre armée : L’unité peut être choisie comme cible d'attaques de tir, mais à chacune de ces attaques, à moins qu’elle soit faite avec un Pistolet, soustrayez1au jet de Touche. Les figurines de l’unité n'ont pas à faire de test de Fuite Désespérée pour Battre en Retraite en étant Ébranlées, sauf pour celles qui vont se déplacer par-dessus des figurines ennemies ce faisant."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Fortification", "Véhicule", "Convergence de Domination"],
+    "cout": "60/120/180"
+    },
+    {
+    "id": 46,
+    "name": "Monolithe",
+    "carac": {
+        "M": "8",
+        "E": "13",
+        "Svg": "2+",
+        "PV": "22",
+        "CD": "7+",
+        "CO": "8"
+    },
+    "tir": 
+        [{
+            "Arme":"Rayon de mort",
+            "Portée": "24",
+            "A": "1",
+            "CT": "3+",
+            "F": "12",
+            "PA": "-4",
+            "D": "D6+1",
+            "spé": ["Touches soutenues D3"]
+        },
+        {
+            "Arme":"Abraseur Gauss",
+            "Portée": "24",
+            "A": "3",
+            "CT": "3+",
+            "F": "6",
+            "PA": "-1",
+            "D": "1",
+            "spé": ["Touches fatales", " / Tir rapide 3"]
+        },
+        {
+            "Arme":"Eruption de particules",
+            "Portée": "24",
+            "A": "3D6",
+            "CT": "3+",
+            "F": "8",
+            "PA": "-1",
+            "D": "2",
+            "spé": ["Déflagration", " / Blessures dévastatrices"]
+        }],
+    "melee": 
+        [{
+            "Arme":"Portail d'Exil",
+            "Portée": "Mêlée",
+            "A": "6",
+            "CC": "2+",
+            "F": "8",
+            "PA": "-2",
+            "D": "3",
+            "spé": []
+        }],
+    "options":["peut remplacer ses 4 abraseurs Gauss par 4 rayons de mort"],
+    "aptitudes": 
+        {
+            "Protocoles de réanimation": "",
+            "Destruction néfaste":"D6",
+            "Frappe en profondeur":"",
+            "Endommagé":"Tant que cette figurine a 1-7 PV restant, soustrayez 4 à sa caractéristique de CO et à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Portail d'Eternité": "À l’étape des Renforts de votre phase de Mouvement, vous pouvez choisir 1 unité Infanterie Nécrons de votre armée qui est soit en Réserve soit sur le champ de bataille (si vous choisissez la seconde option, retirez l’unité du champ de bataille et placez-la en Réserve). L’unité est alors placée n’importe où sur le champ de bataille entièrement à 6 pouces de cette figurine et hors de Portée d’Engagement des figurines ennemies. L’unité ainsi replacée ne peut pas déclarer une charge à ce tour."
+                
+        },
+    "motclesfaction": ["Nécrons"],
+    "motscles": ["Véhicule", "Titanesque", "Vol", "Imposant", "Monolithe"],
+    "cout": "350"
     }
 ]
