@@ -40,24 +40,26 @@
 }
 
 .top {
+  display: inline-block;
   position: sticky;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 15px;
-  background-color: #3498db;
+  bottom: 0;
+  right: 0;
+  padding: 100px 150px;
+  background-color: blue;
   color: #fff;
-  border: none;
+  border: 1px solid red;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .top:hover {
-  background-color: #2980b9;
+  background-color: red;
 }
 
 .top:active {
   background-color: #1f618d;
 }
+
 
 
 .grid {

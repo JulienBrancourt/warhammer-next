@@ -2497,5 +2497,44 @@
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Titanesque", "Vol", "Imposant", "Monolithe"],
     "cout": "350"
+    },
+    {
+        "id": 47,
+        "name": "Tétrarque avec Linceul de Translocalisation",
+        "carac": {
+            "M": "5",
+            "E": "5",
+            "Svg": "2+",
+            "PV": "6",
+            "CD": "6+",
+            "CO": "1"
+        },
+        "tir": 
+            [],
+        "melee": 
+            [{
+                "Arme":"Lame de Tétrarque",
+                "Portée": "Mêlée",
+                "A": "4",
+                "CC": "2+",
+                "F": "8",
+                "PA": "-3",
+                "D": "2",
+                "spé": ["Blessures dévastatrices"]
+            }],
+        "options":[],
+        "aptitudes": 
+            {
+                "Protocoles de réanimation": "",
+                "Meneur": "Peut être attachée aux unités suivantes : Immortels, Factionnaires, Guerriers Nécrons",
+                "Sauvegarde Invulnérable": "4+",
+                "Que ma volonté s'accomplisse": "Une fois par round de bataille, 1 unité de votre armée ayant cette aptitude peut être ciblée par un Stratagème pour 0 PC, même si vous avez déjà ciblé une unité différente avec ce Stratagème à cette phase.",
+                "Linceul de Translocalisation": "Chaque fois que l’unité de cette figurine Avance, ne faites pas un jet d’Avance pour elle. À la place, jusqu’à la fin de la phase, ajoutez 6 pouces à la caractéristique de Mouvement des figurines de l’unité. De plus, chaque fois qu’une figurine de l’unité fait un mouvement Normal, d’Avance ou de Retraite, jusqu’à la fin de ce mouvement, elle peut se déplacer à l’horizontale à travers les figurines et les éléments de terrain (elle ne peut pas finir un mouvement sur une autre figurine ni sur le socle d’une figurine).",
+                "Orbe de résurrection": "Une fois par bataille, tant que le porteur mène une unité, à la fin de n'importe quelle phase, il peut ressuciter l'unité si elle est sur le champ de bataille. Dans ce cas les Protocoles de Réanimation de l'unité s'activent et réaniment D6 PV au lieu de D3 pv. Vous ne pouvez pas ressuciter plus de 1 unité par tour."
+                    
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Personnage", "Noble", "Tétrarque", "Tétrarque avec Linceul de Translocalisation"],
+        "cout": "85"
     }
 ]

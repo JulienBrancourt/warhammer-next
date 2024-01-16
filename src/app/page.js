@@ -21,7 +21,7 @@ const Home = () => {
   }
 
   return (
-    <main>
+    <main className="main">
       <Navbar />
       <section className="unites">
         <h1>Unités</h1>
@@ -34,9 +34,7 @@ const Home = () => {
             />
         </div>
 
-        <button className="top" onClick={scrollToTop}>
-          Scroll to Top
-        </button>
+        
 
         <ul className="unit-list">
           {filtreUnits.map((unit, id) => (
@@ -47,6 +45,10 @@ const Home = () => {
         </ul>
 
       </section>
+      <div className="top" onClick={scrollToTop}>
+        Scroll to Top
+      </div>
+
     </main>
   )
 }
