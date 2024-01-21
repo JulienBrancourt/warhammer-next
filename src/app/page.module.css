@@ -7,6 +7,7 @@
   min-height: 100vh;
 }
 
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -40,11 +41,11 @@
 }
 
 .top {
-  display: inline-block;
+  display: block;
   position: sticky;
   bottom: 0;
   right: 0;
-  padding: 100px 150px;
+  padding: 10px 15px;
   background-color: blue;
   color: #fff;
   border: 1px solid red;
@@ -232,21 +233,3 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}

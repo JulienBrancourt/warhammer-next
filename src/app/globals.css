@@ -25,6 +25,28 @@ h2{
   width: 169px;
 }
 
+.top {
+  display: block;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px;
+  background-color: rgb(184, 184, 226);
+  color: #fff;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.top:hover {
+  background-color: #1f618d;
+} 
+
+.top:active {
+  background-color: #1f618d;
+}
+
 .unit-list {
   list-style-type: none;
   padding: 0 14px;
