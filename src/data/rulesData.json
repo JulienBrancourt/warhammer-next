@@ -17,6 +17,8 @@
         "Pistolet": "Si on tire avec un pistolet, le fig ne peux pas tirer avec une autre arme. On peut tirer même si on est à portée d'engagement",
         "Portée d'Engagement": "1 pouce à l'horizontale et 5 pouces à la verticale",
         "Précision": "Quand il cible une unité attachée, le joueur peut allouer l'attaque à une figurine Personnage qui est dans l'unité et visible du porteur",
+        "Réserve": "Unité qui commence la partie ailleurs que sur le champ de bataille. Compte comme ayant fait un mouvement normal lorsqu'elle arrive. une unité en réserve qui n'est pas placée sur le champ de bataille en fin de partie est considérée comme détruite.",
+        "Réserve stratégique": "les unités en réserve stratégique (max 25% des points d'armée) sont un type particulier de Réserve. Elles peuvent arriver à l'étape de renfort de la phase de mouvement, à partir de 2e round. Elles ne peuvent pas être placées à  moins de 9 pouces de fig ennemies, et doivent être placées entièrement à 6 pouces max d'un bord de champ de bataille. Si elles arrivent au 2e round elles ne peuvent pas être placées dans la zone de déploiement adverse. Les Fortifications ne peuvent pas être placées en réserve stratégique.",
         "Tir Indirect": "On peut cibler des unités qui ne sont pas visible de l'unité attaquante. Si aucune figurine d'une unité cible n'est visible quand l'unit est choisie : -1 au jet de Touche et la cible à le bénéfice du couvert.",
         "Tir Rapide 1": "On augmente les attaques de x quand on cible des unités à mi-portée",
         "Touches Fatales": "Une touche critique (6 naturel) blesse auto",
