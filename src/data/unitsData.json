@@ -308,7 +308,7 @@
                 "D": "1",
                 "spé": []
             }],
-        "options":["Toutels les figurines de cette unité peuvent remplacer leur crosse d'alliance par un projectteurde particules et une lame du néant"],
+        "options":["Toutes les figurines de cette unité peuvent remplacer leur crosse d'alliance par un projectteurde particules et une lame du néant"],
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
@@ -1861,7 +1861,7 @@
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
-            "Destruction néfaste":"1",
+            "Destruction néfaste": "1",
             "Nuée Canoptek": "À votre phase de Commandement, choisissez 1 unité Nuée de Scarabées Canopteks amie à 6 pouces de cette unité. 1 figurine détruite est restituée à l’unité Nuée Scarabées Canopteks choisie pour chaque figurine Arachnyde de cette unité.",
             "Panoplie de Pinces (Aura)": "Donne Insensible à la Douleur 6+ aux Véhicules à 6 pouces.",
             "Prisme de Noirceur (Aura)": "Donne Insensible à la Douleur 5+ contre les BM et les Attaques Psychiques."
@@ -2051,7 +2051,7 @@
         {
             "Protocoles de réanimation": "",
             "Sauvegarde Invulnérable":"4+",
-            "Destruction néfaste":"1",
+            "Destruction néfaste": "1",
             "Décharges Malveillantes": "À votre phase de Tir, chaque fois que vous choisissez une cible pour le destructeur Tesla jumelé de cette figurine, jetez 1D6 pour l’unité cible et 1D6 pour chaque autre unité ennemie à 3 pouces de l’unité cible. Sur 5+, l'unité concernée par le jet est frappée par des décharges, après avoir résolu toutes les attaques de cette figurine contre l’unité cible, chaque unité frappée par des décharges subit D3 blessures mortelles."
                 
         },
