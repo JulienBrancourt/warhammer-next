@@ -308,7 +308,7 @@
                 "D": "1",
                 "spé": []
             }],
-        "options":["Toutes les figurines de cette unité peuvent remplacer leur crosse d'alliance par un projectteurde particules et une lame du néant"],
+        "options":["Toutels les figurines de cette unité peuvent remplacer leur crosse d'alliance par un projecteur de particules et une lame du néant"],
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
@@ -357,8 +357,8 @@
             {
                 "Protocoles de réanimation": "",
                 "Créature subalterne": "Tant que cette unité est dans la même unité qu'une figurine Cryptek, cette figurine Cryptek a l'aptitude Insensible à la douleur 4+",
-                "Vigueur systémique": "Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si la figurine n’a pas combattu à cette phase, jetez 1D6 : sur 2+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a résolu ses attaques, puis elle est retirée du jeu",
-                "Suite Cryptek": "Au début de l’étape Déclarer les Formations de Bataille, cette unité peut rejoindre 1 autre unité de votre armée qui est menée par une figurine Infanterie Cryptek (une unité ne peut pas avoir plus de 1 unité Cryptoserfs l’ayant rejointe). En ce cas, jusqu’à la fin de la bataille, toutes les figurines de cette unité comptent comme faisant partie de l’unité de Gardes du Corps, et l’Effectif Initial de l’unité de Gardes du Corps est augmenté en conséquence"
+                "Vigueur systémique": "Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si la figurine n’a pas combattu à cette phase, jetez 1D6 : sur 2+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a résolu ses attaques, puis elle est retirée du jeu.",
+                "Suite Cryptek": "Au début de l’étape Déclarer les Formations de Bataille, cette unité peut rejoindre 1 autre unité de votre armée qui est menée par une figurine Infanterie Cryptek (une unité ne peut pas avoir plus de 1 unité Cryptoserfs l’ayant rejointe). En ce cas, jusqu’à la fin de la bataille, toutes les figurines de cette unité comptent comme faisant partie de l’unité de Gardes du Corps, et l’Effectif Initial de l’unité de Gardes du Corps est augmenté en conséquence."
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Cryptoserfs"],
@@ -427,7 +427,7 @@
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Destruction néfaste": "1",
+                "Destruction néfaste": " 1",
                 "Autodestruction": "Au début de la phase de Combat, si cette unité est à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez choisir 1 figurine de cette unité et la détruire. En ce cas, ne faites pas de jet pour l’aptitude Destruction Néfaste de votre figurine ; à la place, choisissez 1 unité ennemie à Portée d’Engagement de votre figurine et jetez 1 D6, en ajoutant 1 au résultat si l’unité ennemie est un Véhicule. Sur 2-5, l’unité ennemie subit D3 blessures mortelles ; sur 6+, elle subit D3+3 blessures mortelles",
                 "Nuée stridente": "Tant qu’une unité ennemie est à Portée d’Engagement de cette unité, soustrayez 1 à la caractéristique de Contrôle d’Objectif des figurines de l’unité ennemie (jusqu’à un minimum de 1). Tant que cette unité de scarabées est à 6 pouces ou moinsd'une figurine Cryptek, la caractéristique de CO des scarabées est 1." 
             },
@@ -1044,7 +1044,7 @@
         {
             "Protocoles de réanimation": "",
             "Sauvegarde Invulnérable":"4+",
-            "Destruction néfaste":"1",
+            "Destruction néfaste":" 1",
             "Ondes Porteuses (Aura)": "Tant qu'une unité est à 6 pouces, ajoutez 1 à la caractéristique de CO des figurines de l'unité amie.",
             "Blindage Quantique Avancée": "à chque attaque qui cible cette figurine, si la caractéristique de Force de l'attaquant est supérieure à la caractéristique d'Endurance de cette figurine, soustrayez 1 au jet de Blessure.",
             "Orbe de résurrection":"Une fois par bataille, à la fin de n'importe quelle phase, choisissez 1 unité Infanterie ou Montée à 6 pouces du porteur : les Protocoles de Réanimation de l'unité s'activent et réaniment D6 PV au lieu de D3 pv. Vous ne pouvez pas ressuciter plus de 1 unité par tour."
@@ -1861,7 +1861,7 @@
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
-            "Destruction néfaste": "1",
+            "Destruction néfaste": " 1",
             "Nuée Canoptek": "À votre phase de Commandement, choisissez 1 unité Nuée de Scarabées Canopteks amie à 6 pouces de cette unité. 1 figurine détruite est restituée à l’unité Nuée Scarabées Canopteks choisie pour chaque figurine Arachnyde de cette unité.",
             "Panoplie de Pinces (Aura)": "Donne Insensible à la Douleur 6+ aux Véhicules à 6 pouces.",
             "Prisme de Noirceur (Aura)": "Donne Insensible à la Douleur 5+ contre les BM et les Attaques Psychiques."
@@ -2051,7 +2051,7 @@
         {
             "Protocoles de réanimation": "",
             "Sauvegarde Invulnérable":"4+",
-            "Destruction néfaste": "1",
+            "Destruction néfaste": " 1",
             "Décharges Malveillantes": "À votre phase de Tir, chaque fois que vous choisissez une cible pour le destructeur Tesla jumelé de cette figurine, jetez 1D6 pour l’unité cible et 1D6 pour chaque autre unité ennemie à 3 pouces de l’unité cible. Sur 5+, l'unité concernée par le jet est frappée par des décharges, après avoir résolu toutes les attaques de cette figurine contre l’unité cible, chaque unité frappée par des décharges subit D3 blessures mortelles."
                 
         },
@@ -2259,7 +2259,7 @@
             "Destruction néfaste":"D3",
             "Endommagé":"Tant que cette figurine a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
             "Transport":"Cette figurine a une capacité de transport de 1  Infanterie Nécrons.",
-            "Envahisseur QUantique": "Cette figurine peut être placée à l’étape des Renforts de votre première, de votre seconde ou de votre troisième phase de Mouvement, quelles que soient les règles de la mission.",
+            "Envahisseur Quantique": "Cette figurine peut être placée à l’étape des Renforts de votre première, de votre seconde ou de votre troisième phase de Mouvement, quelles que soient les règles de la mission.",
             "Rayons d'Invasion": "À la fin de la phase de Combat, s’il n’y a aucune figurine embarquée dans ce Transport, vous pouvez choisir1unité Infanterie Nécrons amie entièrement à 6 pouces de ce Transport. À moins que l’unité choisie ne soit à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut embarquer dans ce Transport."
                 
         },
