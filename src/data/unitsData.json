@@ -427,7 +427,6 @@
         "aptitudes": 
             {
                 "Protocoles de réanimation": "",
-                "Destruction néfaste": " 1",
                 "Autodestruction": "Au début de la phase de Combat, si cette unité est à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez choisir 1 figurine de cette unité et la détruire. En ce cas, ne faites pas de jet pour l’aptitude Destruction Néfaste de votre figurine ; à la place, choisissez 1 unité ennemie à Portée d’Engagement de votre figurine et jetez 1 D6, en ajoutant 1 au résultat si l’unité ennemie est un Véhicule. Sur 2-5, l’unité ennemie subit D3 blessures mortelles ; sur 6+, elle subit D3+3 blessures mortelles",
                 "Nuée stridente": "Tant qu’une unité ennemie est à Portée d’Engagement de cette unité, soustrayez 1 à la caractéristique de Contrôle d’Objectif des figurines de l’unité ennemie (jusqu’à un minimum de 1). Tant que cette unité de scarabées est à 6 pouces ou moinsd'une figurine Cryptek, la caractéristique de CO des scarabées est 1." 
             },
