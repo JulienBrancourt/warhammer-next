@@ -317,7 +317,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Vol", "Triarcat", "Prétoriens"],
-        "cout": "120/240"
+        "cout": "100/200"
     },
     {
         "id": 7,
@@ -475,7 +475,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Monté", "Vol", "Destroyers Lokhusts","Culte Destroyer"],
-        "cout": "30/60/90/180"
+        "cout": "35/60/90/180"
     },
     {
         "id": 11,
@@ -519,7 +519,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Véhicule", "Marcheur", "Canoptek", "Réanimateur"],
-        "cout": "105"
+        "cout": "75"
     },
     {
         "id": 12,
@@ -594,7 +594,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Véhicule", "Marcheur", "Rôdeur", "Triarcat"],
-        "cout": "125"
+        "cout": "110"
     },
     {
         "id": 13,
@@ -778,7 +778,7 @@
                 
         },
     "motclesfaction": ["Nécrons"],
-    "motscles": ["Véhicule", "Personnage", "Héros Epique", "Le Roi Silencieux"],
+    "motscles": ["Véhicule", "Héros Epique"],
     "cout": ""
     },
     {
@@ -1051,7 +1051,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule","Personnage","Vol","Console de Commandement"],
-    "cout": "130"
+    "cout": "120"
     },
     {
     "id": 21,
@@ -1625,7 +1625,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie", "Traqueurs"],
-    "cout": "60/120"
+    "cout": "65/130"
     },
     {
     "id": 31,
@@ -1821,7 +1821,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monté", "Vol", "Culte Destroyer", "Destroyers Lourds Lokhusts"],
-    "cout": "50/100/150"
+    "cout": "55/110/165"
     },
     {
     "id": 35,
@@ -1933,7 +1933,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Bêtes", "Vol", "Canoptek", "Spectres"],
-    "cout": "110/220"
+    "cout": "125/250"
     },
     {
     "id": 37,
@@ -1990,7 +1990,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Vol", "Canoptek", "Maraudeur"],
-    "cout": "135"
+    "cout": "145"
     },
     {
     "id": 38,
@@ -2056,7 +2056,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Vol", "Console d'Annihilation"],
-    "cout": "115"
+    "cout": "105"
     },
     {
     "id": 39,
@@ -2113,7 +2113,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Vol", "Arche du Jugement Dernier"],
-    "cout": "200"
+    "cout": "190"
     },
     {
     "id": 40,
@@ -2255,13 +2255,13 @@
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
-            "Destruction néfaste":"D3",
-            "Endommagé":"Tant que cette figurine a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
-            "Transport":"Cette figurine a une capacité de transport de 1  Infanterie Nécrons.",
+            "Destruction néfaste": "D3",
+            "Frappe en profondeur": "",
+            "Endommagé": "Tant que cette figurine a 1-4 PV restant, à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
+            "Transport": "Cette figurine a une capacité de transport de 1  Infanterie Nécrons.",
             "Envahisseur Quantique": "Cette figurine peut être placée à l’étape des Renforts de votre première, de votre seconde ou de votre troisième phase de Mouvement, quelles que soient les règles de la mission.",
             "Rayons d'Invasion": "À la fin de la phase de Combat, s’il n’y a aucune figurine embarquée dans ce Transport, vous pouvez choisir1unité Infanterie Nécrons amie entièrement à 6 pouces de ce Transport. À moins que l’unité choisie ne soit à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut embarquer dans ce Transport."
-                
-        },
+				},
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Aérodyne", "Vol", "Transport", "Moissonneur"],
     "cout": "145"
@@ -2312,7 +2312,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Titanesque", "Vol", "Imposant", "Obélisque"],
-    "cout": "325"
+    "cout": "300"
     },
     {
     "id": 44,
@@ -2390,7 +2390,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Titanesque", "Vol", "Imposant", "Crypte Tesseract"],
-    "cout": "400"
+    "cout": "425"
     },
     {
     "id": 45,
@@ -2495,7 +2495,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Titanesque", "Vol", "Imposant", "Monolithe"],
-    "cout": "375"
+    "cout": "400"
     },
     {
         "id": 47,
