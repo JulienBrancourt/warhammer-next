@@ -50,8 +50,8 @@
                 "Leur nombre est légion": "Chaque fois que les Protocoles de Réanimation de cette unité s’activent, vous pouvez relancer le dé." 
             },
         "motclesfaction": ["Nécrons"],
-        "motscles": ["Infanterie", "Ligne", "Nécrons"],
-        "cout": "100/200"
+        "motscles": ["Infanterie", "Ligne", "Guerriers Nécrons"],
+        "cout": "90/200"
     },
     {"id": 2,
         "name": "Factionnaires (5/10)",
@@ -150,7 +150,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Ligne", "Immortels"],
-        "cout": "75/150"
+        "cout": "70/150"
     },
     {
         "id": 4,
@@ -196,7 +196,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Personnage", "Cryptek", "Plasmancien"],
-        "cout": "65"
+        "cout": "60"
     },
     {
         "id": 5,
@@ -1155,7 +1155,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie","Personnage","Garde Royal"],
-    "cout": "40"
+    "cout": "50"
     },
     {
     "id": 22,
@@ -1403,7 +1403,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Nyctophore"],
-    "cout": "295"
+    "cout": "305"
     },
     {
     "id": 27,
@@ -1482,7 +1482,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Dragon du Néant"],
-    "cout": "290"
+    "cout": "300"
     },
     {
     "id": 28,
@@ -1533,7 +1533,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Vol", "C'Tan Transcendant"],
-    "cout": "285"
+    "cout": "295"
     },
     {
     "id": 29,
@@ -1580,7 +1580,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie", "Personnage", "Culte Destroyer", "Destroyer Hexmark"],
-    "cout": "70"
+    "cout": "75"
     },
     {
     "id": 30,
@@ -1767,7 +1767,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie", "Culte Destroyer", "Destroyers Ophydiens"],
-    "cout": "90/180"
+    "cout": "80/160"
     },
     {
     "id": 34,
@@ -1933,7 +1933,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Bêtes", "Vol", "Canoptek", "Spectres"],
-    "cout": "125/250"
+    "cout": "115/230"
     },
     {
     "id": 37,
@@ -2160,7 +2160,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Vol", "Transport", "Transport Assigné", "Arche Fantôme"],
-    "cout": "125"
+    "cout": "115"
     },
     {
     "id": 41,
