@@ -127,7 +127,7 @@
                 "A": "2",
                 "CT": "3+",
                 "F": "5",
-                "PA": "-1",
+                "PA": "0",
                 "D": "1",
                 "spé": ["Assaut", "Touches soutenues 2"]
             }],
@@ -196,7 +196,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Personnage", "Cryptek", "Plasmancien"],
-        "cout": "60"
+        "cout": "55"
     },
     {
         "id": 5,
@@ -253,7 +253,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Personnage", "Seigneur Skorpekh", "Culte Destroyer"],
-        "cout": "80"
+        "cout": "90"
     },
     {
         "id": 6,
@@ -475,7 +475,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Monté", "Vol", "Destroyers Lokhusts","Culte Destroyer"],
-        "cout": "35/60/90/180"
+        "cout": "40/60/90/180"
     },
     {
         "id": 11,
@@ -894,7 +894,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie", "Personnage", "Héros Epique", "Cryptek", "Illuminor Szeras"],
-    "cout": "175"
+    "cout": "165"
     },
     {
     "id": 18,
@@ -1201,7 +1201,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie","Personnage","Vol","Cryptek","Technomancien"],
-    "cout": "85"
+    "cout": "80"
     },
     {
     "id": 23,
@@ -1625,7 +1625,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Infanterie", "Traqueurs"],
-    "cout": "65/130"
+    "cout": "60/120"
     },
     {
     "id": 31,
@@ -1933,7 +1933,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Bêtes", "Vol", "Canoptek", "Spectres"],
-    "cout": "115/230"
+    "cout": "110/220"
     },
     {
     "id": 37,
@@ -2113,7 +2113,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Vol", "Arche du Jugement Dernier"],
-    "cout": "190"
+    "cout": "200"
     },
     {
     "id": 40,
