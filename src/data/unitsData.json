@@ -2307,7 +2307,7 @@
             "Destruction néfaste":"D6",
             "Frappe en profondeur": "",
             "Endommagé":"Tant que cette figurine a 1-8 PV restant, soustrayez 4 à sa caractéristique de CO et à chaque attaque de cette figurine, soustrayez 1 au jet de touche.",
-            "Impulsion Gravitique": "Au début de la phase de Mouvement adverse, vous pouvez choisir 1unité ennemie à 18 pouces et visible de cette figurine. Jusqu’à la fin du tour, divisez par deux la caractéristique de Mouvement des figurines de l'unité ennemie choisie et divisez par deux les jets d’Avance et de Charge pour elle. De plus, si l’unité ennemie choisie a le mot-clé Vol, jusqu’au début de votre prochaine phase de Mouvement, jetez 1D6 chaque fois que cette unité ennemie finit n’importe quel type de mouvement : sur 4+, elle subit D3 blessures mortelles."
+            "Impulsion Gravitique": "Au début de la phase de Mouvement adverse, vous pouvez choisir 1 unité ennemie à 18 pouces et visible de cette figurine. Jusqu’à la fin du tour, divisez par deux la caractéristique de Mouvement des figurines de l'unité ennemie choisie et divisez par deux les jets d’Avance et de Charge pour elle. De plus, si l’unité ennemie choisie a le mot-clé Vol, jusqu’au début de votre prochaine phase de Mouvement, jetez 1D6 chaque fois que cette unité ennemie finit n’importe quel type de mouvement : sur 4+, elle subit D3 blessures mortelles."
                 
         },
     "motclesfaction": ["Nécrons"],
