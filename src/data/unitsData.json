@@ -317,7 +317,7 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Vol", "Triarcat", "Prétoriens"],
-        "cout": "100/200"
+        "cout": "90/180"
     },
     {
         "id": 7,
@@ -733,7 +733,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Personnage", "Héros Epique", "Le Roi Silencieux"],
-    "cout": "420"
+    "cout": "400"
     },
         {
     "id": 15,
@@ -1344,7 +1344,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Mystificateur"],
-    "cout": "265"
+    "cout": "285"
     },
     {
     "id": 26,
@@ -1403,7 +1403,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Nyctophore"],
-    "cout": "305"
+    "cout": "315"
     },
     {
     "id": 27,
@@ -1482,7 +1482,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Dragon du Néant"],
-    "cout": "300"
+    "cout": "310"
     },
     {
     "id": 28,
@@ -1533,7 +1533,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Vol", "C'Tan Transcendant"],
-    "cout": "295"
+    "cout": "305"
     },
     {
     "id": 29,
@@ -1990,7 +1990,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Véhicule", "Vol", "Canoptek", "Maraudeur"],
-    "cout": "145"
+    "cout": "140"
     },
     {
     "id": 38,
