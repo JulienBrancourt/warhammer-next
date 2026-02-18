@@ -1300,12 +1300,12 @@
     "id": 25,
     "name": "C'Tan Mystificateur",
     "carac": {
-        "M": "6",
+        "M": "8",
         "E": "11",
-        "Svg": "4+",
-        "PV": "12",
+        "Svg": "3+",
+        "PV": "16",
         "CD": "6+",
-        "CO": "6"
+        "CO": "4"
     },
     "tir": 
         [{
@@ -1315,7 +1315,7 @@
             "CT": "2+",
             "F": "6",
             "PA": "-2",
-            "D": "1",
+            "D": "2",
             "spé": ["Anti-Personnage 4+"," / Blessures dévastatrices"," / Précision"]
         }],
     "melee": 
@@ -1324,7 +1324,7 @@
             "Portée": "Mêlée",
             "A": "8",
             "CC": "2+",
-            "F": "8",
+            "F": "10",
             "PA": "-3",
             "D": "3",
             "spé": []
@@ -1333,15 +1333,15 @@
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
-            "Sauvegarde Invulnérable":"4+",
-            "Insensible à la douleur":"5+",
+            "Sauvegarde Invulnérable": "4+",
+            "Insensible à la douleur": "5+",
             "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
-            "Destruction néfaste":"D6",
-            "Discrétion":"",
+            "Destruction néfaste": "D6",
+            "Frappe en profondeur": "",
+            "Discrétion": "",
             "Grande Illusion": "Si votre armée inclut cette figurine, après que les deux joueurs ont déployé leurs armées, choisissez jusqu’à trois unités Nécrons de votre armée et redéployez les. Ce faisant, vous pouvez placer certaines ou toutes ces unités en Réserve Stratégique si désiré, quel que soit le nombre d’unités se trouvant déjà en Réserve Stratégique.",
-            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
-                
-        },
+            "Nécroderme": "A chaque attaque qui cible cette figurine, soustrayez 1 à la caractéristique de Dégâts de l'attaque."
+				},
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Mystificateur"],
     "cout": "285"
@@ -1350,10 +1350,10 @@
     "id": 26,
     "name": "C'tan Nyctophore",
     "carac": {
-        "M": "6",
+        "M": "10",
         "E": "11",
-        "Svg": "4+",
-        "PV": "12",
+        "Svg": "3+",
+        "PV": "16",
         "CD": "6+",
         "CO": "4"
     },
@@ -1364,7 +1364,7 @@
             "A": "D3",
             "CT": "2+",
             "F": "12",
-            "PA": "-2",
+            "PA": "-3",
             "D": "D6+3",
             "spé": []
         }],
@@ -1393,14 +1393,13 @@
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
-            "Sauvegarde Invulnérable":"4+",
-            "Insensible à la douleur":"5+",
+            "Sauvegarde Invulnérable": "4+",
+            "Insensible à la douleur": "5+",
             "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
-            "Destruction néfaste":"D6",
+            "Frappe en profondeur": "",
             "Drain de Vie": "A la fin de la phase de Combat, jetez 1D6 pour chaque unité ennemie à 6 pouces : sur 4+, l'unité ennemie subit D3 BM.",
-            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
-                
-        },
+            "Nécroderme": "A chaque attaque qui cible cette figurine, soustrayez 1 à la caractéristique de Dégâts de l'attaque."
+				},
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Nyctophore"],
     "cout": "315"
@@ -1409,10 +1408,10 @@
     "id": 27,
     "name": "C'Tan Dragon du Néant",
     "carac": {
-        "M": "6",
+        "M": "10",
         "E": "11",
-        "Svg": "4+",
-        "PV": "12",
+        "Svg": "3+",
+        "PV": "16",
         "CD": "6+",
         "CO": "4"
     },
@@ -1420,9 +1419,9 @@
         [{
             "Arme":"Lance du Dragon du Néant",
             "Portée": "12",
-            "A": "1",
+            "A": "D3",
             "CT": "2+",
-            "F": "4",
+            "F": "8",
             "PA": "-3",
             "D": "D6+2",
             "spé": ["Anti-Véhicule 2+"]
@@ -1444,7 +1443,7 @@
             "A": "5",
             "CC": "2+",
             "F": "12",
-            "PA": "-3",
+            "PA": "-4",
             "D": "D6+2",
             "spé": ["Anti-Véhicule 2+"]
         },
@@ -1472,14 +1471,14 @@
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
-            "Sauvegarde Invulnérable":"4+",
-            "Insensible à la douleur":"5+",
+            "Sauvegarde Invulnérable": "4+",
+            "Insensible à la douleur": "5+",
             "Dieu stellaire asservi": "Cette figurine ne peut pas être le Seigneur de guerre.",
-            "Destruction néfaste":"D6",
-            "Absorption de Matière": "Au début de votre phase de Tir, choisissez 1unité Véhicule ennemie à 12 pouces de cette figurine et jetez 1D6: sur 2+,l’unité ennemie subit D3 blessures mortelles et cette figurine récupère jusqu’à ce nombre de PV perdus.",
-            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
-                
-        },
+            "Destruction néfaste": "D6",
+            "Frappe en profondeur": "",
+            "Absorption de Matière": "Au début de votre phase de Tir, choisissez 1 unité Véhicule ennemie à 12 pouces de cette figurine et jetez 1D6: sur 2+,l’unité ennemie subit D3 blessures mortelles et cette figurine récupère jusqu’à ce nombre de PV perdus.",
+            "Nécroderme": "A chaque attaque qui cible cette figurine, soustrayez 1 à la caractéristique de Dégâts de l'attaque."
+				},
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Dragon du Néant"],
     "cout": "310"
@@ -1488,10 +1487,10 @@
     "id": 28,
     "name": "C'Tan Transcendant",
     "carac": {
-        "M": "6",
+        "M": "8",
         "E": "11",
-        "Svg": "4+",
-        "PV": "12",
+        "Svg": "3+",
+        "PV": "16",
         "CD": "6+",
         "CO": "4"
     },
@@ -1503,7 +1502,7 @@
             "CT": "2+",
             "F": "8",
             "PA": "-2",
-            "D": "D3",
+            "D": "2",
             "spé": ["Assaut", " / Touches soutenues 1"]
         }],
     "melee": 
@@ -1512,7 +1511,7 @@
             "Portée": "Mêlée",
             "A": "8",
             "CC": "2+",
-            "F": "9",
+            "F": "10",
             "PA": "-3",
             "D": "D6",
             "spé": ["Touches soutenues 1"]
@@ -1528,7 +1527,7 @@
             "Frappe en profondeur": "",
             "Echarde C'Tan": "Ne peut pas recevoir d'Optimisations",
             "Déplacement Transdimensionnel": "Chaque fois que cette figurine est choisie pour Avancer, vous pouvez la retirer du champ de bataille et la replacer n’importe où sur le champ de bataille à plus de 9 pouces à l’horizontale des figurines ennemies.",
-            "Nécroderme": "A chaque attaque qui cible cette figurine, divisez par 2 la caractéristique de Dégâts de l'attaque."
+            "Nécroderme": "A chaque attaque qui cible cette figurine, soustrayez 1 à la caractéristique de Dégâts de l'attaque."
                 
         },
     "motclesfaction": ["Nécrons"],
