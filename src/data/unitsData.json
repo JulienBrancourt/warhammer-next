@@ -2534,5 +2534,65 @@
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Personnage", "Noble", "Tétrarque", "Tétrarque avec Linceul de Translocalisation"],
         "cout": "85"
+    },
+    {
+        "id": 48,
+        "name": "Nékrosor Ammentar",
+        "carac": {
+            "M": "10",
+            "E": "8",
+            "Svg": "3+",
+            "PV": "9",
+            "CD": "6+",
+            "CO": "3"
+        },
+        "tir": 
+            [{
+                "Arme":"Désintégrateurs d'hostiles",
+                "Portée": "18",
+                "A": "4",
+                "CT": "2+",
+                "F": "6",
+                "PA": "-2",
+                "D": "1",
+                "spé": ["Ignore le couvert", "Pistolet", "Touches soutenues 2"]
+            }],
+        "melee": 
+            [{
+                "Arme":"Lame caudale et câbles constricteurs",
+                "Portée": "Mêlée",
+                "A": "6",
+                "CC": "2+",
+                "F": "6",
+                "PA": "-1",
+                "D": "1",
+                "spé": ["Attaques bonus"]
+            },
+            {
+                "Arme": "Gantelet du Destructeur",
+                "Portée": "Mêlée",
+                "A": "6",
+                "CC": "2+",
+                "F": "10",
+                "PA": "-3",
+                "D": "3",
+                "spé": []
+            }],
+        "options":[],
+        "aptitudes": 
+            {
+                "Protocoles de réanimation": "",
+                "Frappe en profondeur":"",
+                "Combat en premier": "",
+                "Sauvegarde Invulnérable": "4+",
+                "Générateur de champ à Négalithe (Aura)": "Tant qu'une unité de Nécrons amie est à 6 pouces du porteur, ses figurines ont l'aptitude Insensible à la Douleur 5+ contre les BM et les Attaques Psuchiques.",
+                "Disciples Protecteurs" : "Tant que cette figurine est à 3 pouces d'une ou plusieurs unités de Culte Destroyer amies, elle a Agent Solitaire",
+                "Folie Meurtrière Infectieuse (Aura)": "Tant qu'une unité Nécrons amie (sauf Titanesque) est à 6 pouces de cette figurine, à chaque attaque d'une figurine de l'unité, si la figurineà le mot-clé Culte Destroyer ou si l'unité ennemieest la cible la plus proche, l'attaque à l'aptitude Touche Soutenue 1.",
+                "Prophète de la Destruction": "Chaque fois que cette figurine détruit une unité ennemie, choisissez 1 autre unité de Culte Destroyer amie à 9 pouces de cette figurine. Jusqu’à la fin de la phase, à chaque attaque d'une figurine de l'unité amie, relancez tout jet de Blessure de 1."
+                    
+            },
+        "motclesfaction": ["Nécrons"],
+        "motscles": ["Infanterie", "Personnage", "Héros Epique", "Culte Destroyer", "Nékrosor Ammentar"],
+        "cout": "165"
     }
 ]
