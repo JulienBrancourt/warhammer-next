@@ -2555,7 +2555,7 @@
                 "F": "6",
                 "PA": "-2",
                 "D": "1",
-                "spé": ["Ignore le couvert", "Pistolet", "Touches soutenues 2"]
+                "spé": ["Ignore le couvert", " / Pistolet", " / Touches soutenues 2"]
             }],
         "melee": 
             [{
