@@ -720,7 +720,7 @@
             "D": "2",
             "spé": ["Touches fatales"]
         }],
-    "options":["Voix du Triarcat :", "-Phaëron des Etoiles (Aura): relance des 1 pour toucher et pour blesser des figurines dont les unités Nécrons sont à 6 pouces de la figurine de Szarekh", "-Phaëron des Lames (Aura): relance des jets de Charge et 1 à la Force des attaques de mélée des figurines dont les unités Nécrons sont à 6 pouces de la figurine de Szarekh", "-Souverain de l'Unité (Aura): Tant qu'une unité Nécron est à 6 pouces de la figurine de Szarekh, vous pouvez ignorer certains ou tous les modificateurs aux caractéristiques des figurines de l'unité amieet à tous les jets ou tests pour les figurines de l'unité amie (sauf modifs aux jets de sauvegarde"],
+    "options":["Voix du Triarcat :", "-Phaëron des Etoiles (Aura 6ps): relance des 1 pour toucher et pour blesser des figurines", "-Phaëron des Lames (Aura 6ps): relance des jets de Charge et 1 à la Force des attaques de mélée des figurines", "-Marche infatigable (Aura 6ps): +2ps de Mvt"],
     "aptitudes": 
         {
             "Protocoles de réanimation": "",
@@ -732,7 +732,7 @@
             "Le Roi Silencieux": "Aura 6 pouces de la figurine de Szarekh, 1 en Commandement."               
         },
     "motclesfaction": ["Nécrons"],
-    "motscles": ["Véhicule", "Personnage", "Héros Epique", "Le Roi Silencieux"],
+    "motscles": ["Véhicule", "Personnage", "Héros Epique", "Le Roi Silencieux", "Triarcat"],
     "cout": "400"
     },
         {
@@ -778,7 +778,7 @@
                 
         },
     "motclesfaction": ["Nécrons"],
-    "motscles": ["Véhicule", "Héros Epique"],
+    "motscles": ["Véhicule", "Héros Epique", "Triarcat"],
     "cout": ""
     },
     {
@@ -2585,10 +2585,10 @@
                 "Frappe en profondeur":"",
                 "Combat en premier": "",
                 "Sauvegarde Invulnérable": "4+",
-                "Générateur de champ à Négalithe (Aura)": "Tant qu'une unité de Nécrons amie est à 6 pouces du porteur, ses figurines ont l'aptitude Insensible à la Douleur 5+ contre les BM et les Attaques Psuchiques.",
+                "Générateur de champ à Négalithe (Aura 6ps)": "Tant qu'une unité de Nécrons amie, ses figurines ont l'aptitude Insensible à la Douleur 5+ contre les BM et les Attaques Psychiques.",
                 "Disciples Protecteurs" : "Tant que cette figurine est à 3 pouces d'une ou plusieurs unités de Culte Destroyer amies, elle a Agent Solitaire",
-                "Folie Meurtrière Infectieuse (Aura)": "Tant qu'une unité Nécrons amie (sauf Titanesque) est à 6 pouces de cette figurine, à chaque attaque d'une figurine de l'unité, si la figurineà le mot-clé Culte Destroyer ou si l'unité ennemieest la cible la plus proche, l'attaque à l'aptitude Touche Soutenue 1.",
-                "Prophète de la Destruction": "Chaque fois que cette figurine détruit une unité ennemie, choisissez 1 autre unité de Culte Destroyer amie à 9 pouces de cette figurine. Jusqu’à la fin de la phase, à chaque attaque d'une figurine de l'unité amie, relancez tout jet de Blessure de 1."
+                "Folie Meurtrière Infectieuse (Aura 6ps)": "Tant qu'une unité Nécrons amie (sauf Titanesque) est à 6ps de cette figurine, à chaque attaque d'une figurine de l'unité, si la figurineà le mot-clé Culte Destroyer ou si l'unité ennemieest la cible la plus proche, l'attaque à l'aptitude Touche Soutenue 1.",
+                "Prophète de la Destruction": "Chaque fois que cette figurine détruit une unité ennemie, choisissez 1 autre unité de Culte Destroyer amie à 9ps de cette figurine. Jusqu’à la fin de la phase, à chaque attaque d'une figurine de l'unité amie, relancez tout jet de Blessure de 1."
                     
             },
         "motclesfaction": ["Nécrons"],
