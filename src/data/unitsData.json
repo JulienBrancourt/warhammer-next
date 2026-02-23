@@ -2585,9 +2585,9 @@
                 "Frappe en profondeur":"",
                 "Combat en premier": "",
                 "Sauvegarde Invulnérable": "4+",
-                "Générateur de champ à Négalithe (Aura 6ps)": "Tant qu'une unité de Nécrons amie, ses figurines ont l'aptitude Insensible à la Douleur 5+ contre les BM et les Attaques Psychiques.",
+                "Générateur de champ à Négalithe (Aura 6ps)": "Tant qu'une unité de Nécrons amie est à 6ps, ses figurines ont l'aptitude Insensible à la Douleur 5+ contre les BM et les Attaques Psychiques.",
                 "Disciples Protecteurs" : "Tant que cette figurine est à 3 pouces d'une ou plusieurs unités de Culte Destroyer amies, elle a Agent Solitaire",
-                "Folie Meurtrière Infectieuse (Aura 6ps)": "Tant qu'une unité Nécrons amie (sauf Titanesque) est à 6ps de cette figurine, à chaque attaque d'une figurine de l'unité, si la figurineà le mot-clé Culte Destroyer ou si l'unité ennemieest la cible la plus proche, l'attaque à l'aptitude Touche Soutenue 1.",
+                "Folie Meurtrière Infectieuse (Aura 6ps)": "Tant qu'une unité Nécrons amie (sauf Titanesque) est à 6ps de cette figurine, à chaque attaque d'une figurine de l'unité, si la figurine à le mot-clé Culte Destroyer ou si l'unité ennemie est la cible la plus proche, l'attaque à l'aptitude Touche Soutenue 1.",
                 "Prophète de la Destruction": "Chaque fois que cette figurine détruit une unité ennemie, choisissez 1 autre unité de Culte Destroyer amie à 9ps de cette figurine. Jusqu’à la fin de la phase, à chaque attaque d'une figurine de l'unité amie, relancez tout jet de Blessure de 1."
                     
             },
