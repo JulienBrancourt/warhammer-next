@@ -1344,7 +1344,7 @@
 				},
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Mystificateur"],
-    "cout": "285"
+    "cout": "295"
     },
     {
     "id": 26,
@@ -1402,7 +1402,7 @@
 				},
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Nyctophore"],
-    "cout": "315"
+    "cout": "325"
     },
     {
     "id": 27,
@@ -1481,7 +1481,7 @@
 				},
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Héros Epique", "Vol", "Echarde C'tan du Dragon du Néant"],
-    "cout": "310"
+    "cout": "320"
     },
     {
     "id": 28,
@@ -1532,7 +1532,7 @@
         },
     "motclesfaction": ["Nécrons"],
     "motscles": ["Monstre", "Personnage", "Vol", "C'Tan Transcendant"],
-    "cout": "305"
+    "cout": "315"
     },
     {
     "id": 29,
@@ -2080,9 +2080,9 @@
             "spé": ["Déflagration", " / Lourd"]
         },
         {
-            "Arme":"Bordée Gauss",
+            "Arme":"Bordée Gauss(2)",
             "Portée": "24",
-            "A": "5",
+            "A": "2x5",
             "CT": "3+",
             "F": "4",
             "PA": "0",
@@ -2593,6 +2593,6 @@
             },
         "motclesfaction": ["Nécrons"],
         "motscles": ["Infanterie", "Personnage", "Héros Epique", "Culte Destroyer", "Nékrosor Ammentar"],
-        "cout": "165"
+        "cout": "185"
     }
 ]
